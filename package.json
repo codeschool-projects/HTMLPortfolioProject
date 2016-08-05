@@ -4,11 +4,15 @@
   "description": "",
   "private": true,
   "scripts": {
-    "start": "browser-sync start --server ./src --files ./src"
+    "start": "browser-sync start --server ./src --files ./src",
+    "test": "mocha test/*.spec.js"
   },
   "author": "Sergio Cruz <sergio@codeschool.com>",
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.14.0"
+    "browser-sync": "^2.14.0",
+    "chai": "^3.5.0",
+    "jsdom": "^9.4.1",
+    "mocha": "^3.0.1"
   }
 }
