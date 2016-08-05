@@ -1,0 +1,14 @@
+{
+  "name": "project-html-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "dsadabrowser-sync start --server ./src --files ./src"
+  },
+  "author": "Sergio Cruz <sergio@codeschool.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.14.0"
+  }
+}
