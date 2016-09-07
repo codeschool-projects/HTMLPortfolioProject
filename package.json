@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "start": "browser-sync start --server ./src --files ./src",
-    "test": "mocha test/*.spec.js"
+    "test": "mocha test/*.spec.js",
+    "deploy:github-pages": "git subtree push --prefix src origin gh-pages"
   },
   "author": "Sergio Cruz <sergio@codeschool.com>",
   "license": "MIT",
