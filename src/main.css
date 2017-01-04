@@ -1,0 +1,51 @@
+html, body ,h1 ,h2 ,h3 ,h4 ,p ,div {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('images/bg.jpg') no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h1{
+    padding: 15px 0 15px 0;
+    font-size: 2.5em;
+    font-weight: bolder;    
+}
+h2{
+    padding: 10px 0 10px 0;
+    font-size: 2em;
+    font-weight: bolder;    
+}
+
+h3{
+    padding: 10px 0 10px 0;
+    font-size: 1.5em;
+    font-weight: bolder; 
+}
+h4{
+    padding: 10px 0 10px 0;
+    font-size: 1.2em;
+    font-weight: bolder; 
+}
+
+p {
+    padding: 10px 0 10px 0;
+}
+.skills{
+    background-color: #e91e63;
+    color: white;
+}
+
+body>div{
+    padding: 30px;
+}
