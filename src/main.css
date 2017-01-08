@@ -1,0 +1,12 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(100, 100, 100);
+}
+
+.header {
+  text-align: center;
+}
+
+a {
+  color: orange;
+}
