@@ -17,20 +17,24 @@ body {
 
 .header {
   text-align: center;
-  align-items: center;
+  background-color: #EFEFEF;
+  border-top: 4px solid #e91e63;
   line-height: 0.3;
   background-image: url('board.jpg');
   background-position: cover;
   background-size: 100% auto;
-  display: flex;
-  flex-direction: column;
-  color: white;
+  color: #FFFFFF;
   height: 40vh;
+  text-shadow: 1px 1px 10px black;
 }
 
 .header h1 {
     font-weight: 100;
     font-size: 5rem;
+}
+
+.header h1:hover {
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .header h2 {
@@ -42,18 +46,3 @@ body {
   background: #e91e63;
   color: white;
 }
-
-/*
-.tagline {
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-  padding: 30px 25px;
-}
-.contact {
-  width: 100%;
-  margin: 0 auto;
-  padding: 30px 25px;
-}
-
-*/
