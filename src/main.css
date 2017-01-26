@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Arial, serif;
+  background: #F5F5F5;
+  color: #444;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+
+  .content-wrapper {
+    line-height: 1.4;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 30px 25px;
+  }
+
+.header {
+  text-align: center;
+  background-color: #EFEFEF;
+  border-top: 4px solid #e91e63;
+  line-height: 0.3;
+  background-image: url('board.jpg');
+  background-position: cover;
+  background-size: 100% auto;
+  color: #FFFFFF;
+  height: 40vh;
+  text-shadow: 1px 1px 10px black;
+}
+
+.header h1 {
+    font-weight: 100;
+    font-size: 5rem;
+}
+
+.header h1:hover {
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.header h2 {
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+.skills {
+  background: #e91e63;
+  color: white;
+}
