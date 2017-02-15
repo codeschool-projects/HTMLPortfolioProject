@@ -1,0 +1,14 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #222;
+    
+}
+.backdrop-img {
+    display: block;
+   width: 25%;
+   height: 300px;
+   margin: auto;
+}
