@@ -1,0 +1,27 @@
+html, body, h1, h2, p, ul, ol, img, h4 {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 100%;
+    font:inherit;
+}
+body{
+	font-family: helvetica;
+}
+.header{
+	text-align: center;
+	color: white;
+	background-color: blue;
+}
+.tagline{
+	text-align: center;
+}
+.name-label{
+	font-size: 35px;
+	font-weight: bold;
+	padding-bottom: 25px;
+}
+.h3-label{
+	color: orange;
+	text-align: center;
+	font-size: 25px;
+}
