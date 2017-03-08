@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+  <link rel="stylesheet" href="main.css">
+  <title>HTML Portfolio</title>
+</head>
+<body>
+<div class="header">
+    <h1>Stephanie Lauifi</h1>
+    <h2> Student &amp; Helper</h2>
+    </div>
+    <div class="tagline">
+    <h3> Learn more about Stephanie</h3>
+    <p> Stephanie enjoys writing software that makes people happy </p>
+    </div>
+    <div class="skills">
+    <h3> Stephanie's Skills</h3>
+        <p> Check out what Stephanie loves to write code in</p>
+        <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li> 
+        <li>Angular 2</li> 
+        <li>React</li>    
+        </ul>
+    </div>
+    <div class="contact">
+        <h3> How to contact Stephanie</h3>
+    <p> Thanks for visiting!  Get in contact with Stephanie via Twitter: @hashtagsteph</p>
+    </div>
+  
+
+</body>
+</html>
