@@ -9,13 +9,12 @@
 <body>
 <div class="header">
     <h1>Stephanie Lauifi</h1>
-    <h2> Student in coding course</h2>
+    <h2> Student &amp; Helper</h2>
     </div>
     <div class="tagline">
     <h3> Learn more about Stephanie</h3>
     <p> Stephanie enjoys writing software that makes people happy </p>
-     </div>
-     
+    </div>
     <div class="skills">
     <h3> Stephanie's Skills</h3>
         <p> Check out what Stephanie loves to write code in</p>
@@ -27,12 +26,11 @@
         <li>React</li>    
         </ul>
     </div>
-    
     <div class="contact">
-     <h3> How to contact Stephanie</h3>
-    <p> Thanks for visiting!  Get in contact with Stephanie via Github: <a href="https://github.com/sklauifi">Stephanie Lauifi's Profile</a> 
-    </p>
-   </div>
- 
+        <h3> How to contact Stephanie</h3>
+    <p> Thanks for visiting!  Get in contact with Stephanie via Twitter: @hashtagsteph</p>
+    </div>
+  
+
 </body>
 </html>
