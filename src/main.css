@@ -1,0 +1,131 @@
+body{
+    font-family:helvetica,Arial,sans-serif,"timesnewroman";
+    margin:0px;
+    text-align:center;
+    background-color: #000020;
+    color:white;
+}
+.header{
+    text-align:left;
+    width:60%;
+    min-width:700px;
+    height:130px;
+    color: #000025;
+    text-shadow: 1px 1px 1px 2px black;
+    background-color: #fff;
+    box-shadow: 0px 2px 2px black;
+    border-bottom-right-radius: 300px;
+    border-top-right-radius: 300px;
+}
+.header h1{
+    transform:translate(10px,17px);
+    font-size:50px;
+    letter-spacing:8px;
+
+}
+.header h2{
+    transform:translate(12.5px,-17px);
+    letter-spacing: 7px;
+}
+.skills ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.tagline{
+    background-color: white;
+    color:#000025;
+    float:right;
+    clear:both;
+    position:relative;
+    top: 100px;
+    border-bottom-left-radius:300px;
+    border-top-left-radius:300px;
+    height:130px;
+    width:62%;
+    min-width:700px;
+}
+.tagline h3{
+    letter-spacing:2px;
+    font-size:30px;
+    margin:0px;
+    position:relative;
+    top:6px;
+    right:25px;
+    text-align:right;
+}
+.tagline p{
+    width:90%;
+    position:relative;
+    left:10%;
+    transform:translate(-10px,0);
+    text-align: right;
+    letter-spacing:2px;
+    top:-8px;
+    right:15px;
+}
+.skills{
+    letter-spacing:2px;
+    text-align:left;
+    background-color:white;
+    position:relative;
+    top:300px;
+    color:#000025;
+    height:130px;
+    width:62%;
+    min-width:700px;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+}
+.skills h3{
+    font-size:30px;
+    width:200px;
+    margin:0px;
+    margin-left:10px;
+    position:relative;
+    top:10px;
+    float:left;
+    letter-spacing:2px;
+}
+.skills ul{
+    margin-left:10px;
+    position:relative;
+    top:12px;
+    width:200px;
+    float:left;
+}
+.contact{
+    float:right;
+    clear:both;
+    height:130px;
+    width:62%;
+    min-width:700px;
+    background-color:white;
+    position:relative;
+    top:380px;
+    color:#000025;
+    border-bottom-left-radius:300px;
+    border-top-left-radius:300px;
+}
+.contact h3{
+    font-size:30px;
+    text-align:right;
+    position:relative;
+    top:-15px;
+    right:10px;
+    letter-spacing:2px;
+}
+.contact p{
+    font-size:25px;
+    text-align:right;
+    position:relative;
+    top:-40px;
+    right:10px;
+}
+.contact a{
+    color:#000025;
+}
+#wrapper{
+    min-width:700px;
+    height:800px;
+}
