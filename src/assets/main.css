@@ -1,0 +1,141 @@
+/* codeschool's portfolio testing
+ * CONTENTS:
+ * 1. reset styling
+ * 2. font and Global declarations
+ * 3. html styles
+ * 4. sidebar styling
+ * 5. body text styling
+ */
+
+/*
+ * 1. reset CSS
+ */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+ * 2. Font and globals
+ */
+@font-face {
+  font-family: 'Alegreya';
+  src: url('https://fonts.googleapis.com/css?family=Alegreya');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Alegreya';
+  src: url('https://fonts.googleapis.com/css?family=Alegreya:400i');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Alegreya';
+  src: url('https://fonts.googleapis.com/css?family=Alegreya:700');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Alegreya';
+  src: url('https://fonts.googleapis.com/css?family=Alegreya:700i');
+  font-weight: bold;
+  font-style: italic;
+}
+
+:root {
+  --aside-bg: #6d415f;
+  --body-bg: #ebede1;
+};
+
+/*
+ * 3. HTML styling
+ */
+
+html {
+  font-size: 62.5%;
+  font-family: 'Alegreya', Georgia, serif;
+
+}
+
+/*
+ * 4. sidebar and nav styling
+ */
+.nav {
+  height: 100%;
+  width: 10rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: var(--body-bg);
+  background-color: var(--aside-bg);
+  padding-right: 0.5rem;
+  text-align: right;
+}
+  .nav h1 {
+    font-size: 1.6rem;
+    padding-top: 3.5rem;
+  }
+  .nav h2 {
+    font-size: 1rem;
+  }
+
+/*
+ * 5.Body styling
+ */
+.content {
+  position: absolute;
+  left: 10.5rem;
+  background-color: var(--body-bg);
+  height: 100%;
+
+}
+
+  .content__text {
+    font-size: 0.8rem;
+    color: #000;
+  }
