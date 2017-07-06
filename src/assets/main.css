@@ -1,0 +1,175 @@
+/* codeschool's portfolio testing
+ * CONTENTS:
+ * 1. reset styling
+ * 2. font and Global declarations
+ * 3. html styles
+ * 4. sidebar styling
+ * 5. body text styling
+ */
+
+/*
+ * 1. reset CSS
+ */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+ * 2. Font and globals
+ */
+
+:root {
+  --aside-bg: #2D3E5B;
+  --body-bg: #FFFFFF;
+  --highlight-green: #67a004;
+  --highlight-orange: #BF6C2D;
+};
+
+/*
+ * 3. HTML styling
+ */
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Alegreya', Georgia, serif;
+}
+a {
+  text-decoration: none;
+}
+/*
+ * 4. sidebar and nav styling
+ */
+
+.nav {
+  height: 100%;
+  width: 15%;
+  min-width: 10rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: var(--body-bg);
+  background-color: var(--aside-bg);
+  text-align: right;
+}
+  .nav a {
+    color: #FFF;
+    border-bottom: 2px solid white;
+    transition: border-bottom 0.2s ease-in;
+  }
+    .nav a:hover {
+      border-bottom-color: var(--highlight-green);
+    }
+    .nav a:active {
+      border-bottom-color: var(--highlight-orange);
+    }
+    .nav a: visited {
+      color: #eee;
+      border-bottom-color: #eee;
+    }
+  .nav h1 {
+    font-size: 1.6rem;
+    margin-top: 3.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
+  }
+  .nav h2 {
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
+  .nav ul {
+    margin-top: 9rem;
+    text-align: left;
+    margin-left: 6rem;
+    font-size: 1.2rem;
+    position: relative;
+  }
+    .nav ul:before {
+      content: "";
+      width: 1px;
+      background-color: #fff;
+      height: 12rem;
+      position: absolute;
+      top: -1rem;
+      left: -1.05rem;
+    }
+  .nav li {
+    line-height: 2rem;
+  }
+
+/*
+ * 5.Body styling
+ */
+.content {
+  position: absolute;
+  left: 15.5%;
+  background-color: var(--body-bg);
+  background-image: url('/assets/images/subtle_dots2.png');
+  width: 85%;
+}
+
+  .content__text {
+    padding-top: 3.5rem;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    color: #000;
+  }
+  .content__text h3 {
+    font-size: 2rem;
+    margin-bottom: 0.2rem;
+  }
+  .content__text p {
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+    font-size: 1.2rem;
+  }
+  .content__text ul {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
