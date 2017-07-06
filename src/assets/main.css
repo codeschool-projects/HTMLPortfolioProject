@@ -62,34 +62,12 @@ table {
 /*
  * 2. Font and globals
  */
-@font-face {
-  font-family: 'Alegreya';
-  src: url('https://fonts.googleapis.com/css?family=Alegreya');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Alegreya';
-  src: url('https://fonts.googleapis.com/css?family=Alegreya:400i');
-  font-weight: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'Alegreya';
-  src: url('https://fonts.googleapis.com/css?family=Alegreya:700');
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Alegreya';
-  src: url('https://fonts.googleapis.com/css?family=Alegreya:700i');
-  font-weight: bold;
-  font-style: italic;
-}
 
 :root {
-  --aside-bg: #6d415f;
-  --body-bg: #ebede1;
+  --aside-bg: #2D3E5B;
+  --body-bg: #FFFFFF;
+  --highlight-green: #67a004;
+  --highlight-orange: #BF6C2D;
 };
 
 /*
@@ -98,30 +76,71 @@ table {
 
 html {
   font-size: 62.5%;
+}
+body {
   font-family: 'Alegreya', Georgia, serif;
 }
-
+a {
+  text-decoration: none;
+}
 /*
  * 4. sidebar and nav styling
  */
+
 .nav {
   height: 100%;
-  width: 10rem;
+  width: 15%;
+  min-width: 10rem;
   position: fixed;
   top: 0;
   left: 0;
   color: var(--body-bg);
   background-color: var(--aside-bg);
-  padding-right: 0.5rem;
   text-align: right;
 }
+  .nav a {
+    color: #FFF;
+    border-bottom: 2px solid white;
+    transition: border-bottom 0.2s ease-in;
+  }
+    .nav a:hover {
+      border-bottom-color: var(--highlight-green);
+    }
+    .nav a:active {
+      border-bottom-color: var(--highlight-orange);
+    }
+    .nav a: visited {
+      color: #eee;
+      border-bottom-color: #eee;
+    }
   .nav h1 {
     font-size: 1.6rem;
     margin-top: 3.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
   }
   .nav h2 {
     font-size: 1rem;
+    margin-right: 1rem;
+  }
+  .nav ul {
+    margin-top: 9rem;
+    text-align: left;
+    margin-left: 6rem;
+    font-size: 1.2rem;
+    position: relative;
+  }
+    .nav ul:before {
+      content: "";
+      width: 1px;
+      background-color: #fff;
+      height: 12rem;
+      position: absolute;
+      top: -1rem;
+      left: -1.05rem;
+    }
+  .nav li {
+    line-height: 2rem;
   }
 
 /*
@@ -129,13 +148,28 @@ html {
  */
 .content {
   position: absolute;
-  left: 10.5rem;
+  left: 15.5%;
   background-color: var(--body-bg);
-  height: 100%;
-
+  background-image: url('/assets/images/subtle_dots2.png');
+  width: 85%;
 }
 
   .content__text {
-    font-size: 0.8rem;
+    padding-top: 3.5rem;
+    padding-right: 2rem;
+    padding-left: 1rem;
     color: #000;
+  }
+  .content__text h3 {
+    font-size: 2rem;
+    margin-bottom: 0.2rem;
+  }
+  .content__text p {
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+    font-size: 1.2rem;
+  }
+  .content__text ul {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
   }
