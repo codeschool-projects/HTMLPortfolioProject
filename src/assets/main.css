@@ -99,7 +99,6 @@ table {
 html {
   font-size: 62.5%;
   font-family: 'Alegreya', Georgia, serif;
-
 }
 
 /*
@@ -118,7 +117,8 @@ html {
 }
   .nav h1 {
     font-size: 1.6rem;
-    padding-top: 3.5rem;
+    margin-top: 3.5rem;
+    margin-bottom: 1rem;
   }
   .nav h2 {
     font-size: 1rem;
