@@ -1,0 +1,38 @@
+h1 {
+  color: #2F4F4F;
+  font-family: cursive, fantasy, inherit;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: normal;
+}
+h2 {
+  text-decoration: none;
+  font-family: monospace, serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  color: #
+}
+p {
+  text-decoration: none;
+  letter-spacing: normal;
+  font-family: serif, inherit;
+}
+ul {
+  font-family: serif, inherit;
+  text-decoration: none;
+  padding-left: 690px;
+}
+h3 {
+  font-family: serif, inherit;
+}
+.contact {
+  text-align: right;
+}
+.tagline {
+  text-align: center;
+}
+.titleer {
+  text-align: center;
+}
