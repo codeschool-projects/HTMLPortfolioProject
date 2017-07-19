@@ -1,10 +1,16 @@
-#header {
+h1 {
+ color: #0000FF;
+ text-align: center;
+ font: italic 200% fantasy;
+}
+
+.header {
   padding: 10px 10px 10px 10px;
   border: 1px solid #dddddd;
   margin: 30px 0 0 0;
 }
 
-#skills {
+.skills {
   padding: 10px 10px 10px 10px;
   border: 1px solid #dddddd;
   margin: 30px 0 0 0;
