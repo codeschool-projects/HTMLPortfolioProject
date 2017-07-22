@@ -8,10 +8,10 @@ body {
   background: #F6F6F6;
   color: #333;
   font-family: "Times New Roman", Arial, serif;
-  font-size: 22px;
+  font-size: 28px;
   margin: 0;
   padding: 0;
-  font-weight: 200;
+  font-weight: 300;
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
