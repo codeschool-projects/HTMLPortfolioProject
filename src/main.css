@@ -1,12 +1,12 @@
 *, *:before, *:after {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin: 1;
+  padding: 1;
 }
 
 body {
-  background: #F6F6F6;
-  color: #333;
+  background: #F9F9F9;
+  color: #277;
   font-family: "Times New Roman", Arial, serif;
   font-size: 28px;
   margin: 0;
