@@ -18,7 +18,7 @@ body{
 }
 
 .tagline h3{
-
+  font-size: 20px
 }
 
 .tagline p {
@@ -30,7 +30,7 @@ body{
 }
 
 .skills h3{
-
+  font-size: 20px
 }
 
 .skills p{
@@ -42,7 +42,7 @@ body{
 }
 
 .contact h3 {
-
+  font-size: 20px
 }
 
 .contact p {
@@ -50,5 +50,5 @@ body{
 }
 
 .contact a {
-  
+
 }
