@@ -1,0 +1,54 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+  background-color :sky-blue;
+  }
+
+.header h1 {
+  font-size: 30px;
+}
+
+.header h2{
+  font-size: 25px;
+}
+
+.tagline{
+
+}
+
+.tagline h3{
+  font-size: 20px
+}
+
+.tagline p {
+
+}
+
+.skills {
+
+}
+
+.skills h3{
+  font-size: 20px
+}
+
+.skills p{
+
+}
+
+.skills ul {
+
+}
+
+.contact h3 {
+  font-size: 20px
+}
+
+.contact p {
+
+}
+
+.contact a {
+
+}
