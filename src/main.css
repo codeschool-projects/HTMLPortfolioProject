@@ -2,3 +2,29 @@
   padding: 0px;
   margin: 0px;
 }
+
+body {
+  font-family: 'Rancho';
+}
+
+.header {
+  background-color:#96858F;
+}
+
+.header h1 {
+  font-size: 46px;
+  font-family: 'Oleo Script'
+}
+
+
+.tagline {
+
+}
+
+.skills {
+
+}
+
+.contact {
+
+}
