@@ -4,25 +4,37 @@
 }
 
 body {
+  color: white;
   font-family: 'Rancho';
+  font-size: 24px;
 }
 
 body div {
-  margin-right: 7.5%;
-  margin-left: 7.5%;
+  margin: auto;
+  padding: 5px 10px 5px 10px;
 }
 .header {
   background-color:#EDC7B7;
 }
 
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 24px;
+}
+
 .header h1 {
-  font-size: 46px;
   font-family: 'Oleo Script';
   text-align: center;
 }
 
 .header h2 {
   text-align: center;
+
 }
 
 
@@ -43,7 +55,6 @@ body div {
 }
 
 .skills ul {
-  list-style-type: none;
 }
 
 .contact {
