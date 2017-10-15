@@ -8,8 +8,8 @@ body {
 }
 
 body div {
-  margin-right: 15%;
-  margin-left: 15%;
+  margin-right: 7.5%;
+  margin-left: 7.5%;
 }
 .header {
   background-color:#EDC7B7;
@@ -17,19 +17,39 @@ body div {
 
 .header h1 {
   font-size: 46px;
-  font-family: 'Oleo Script'
+  font-family: 'Oleo Script';
+  text-align: center;
+}
+
+.header h2 {
+  text-align: center;
 }
 
 
 .tagline {
   background-color:#EEE2DC;
+}
 
+.tagline h3 {
+  text-align: center;
 }
 
 .skills {
   background-color:#BAB2B5;
 }
 
+.skills h3 {
+    text-align: center
+}
+
+.skills ul {
+  list-style-type: none;
+}
+
 .contact {
   background-color:#123C69;
+}
+
+.contact h3 {
+  text-align: center;
 }
