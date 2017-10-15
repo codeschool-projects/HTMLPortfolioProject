@@ -7,8 +7,12 @@ body {
   font-family: 'Rancho';
 }
 
+body div {
+  margin-right: 15%;
+  margin-left: 15%;
+}
 .header {
-  background-color:#96858F;
+  background-color:#EDC7B7;
 }
 
 .header h1 {
@@ -18,13 +22,14 @@ body {
 
 
 .tagline {
+  background-color:#EEE2DC;
 
 }
 
 .skills {
-
+  background-color:#BAB2B5;
 }
 
 .contact {
-
+  background-color:#123C69;
 }
