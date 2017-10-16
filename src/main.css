@@ -39,7 +39,7 @@ h3 {
 
 
 .tagline {
-  background-color:#EEE2DC;
+  background-color:#BAB2B5;
 }
 
 .tagline h3 {
@@ -47,7 +47,7 @@ h3 {
 }
 
 .skills {
-  background-color:#BAB2B5;
+  background-color:#83BCE1;
 }
 
 .skills h3 {
@@ -55,6 +55,7 @@ h3 {
 }
 
 .skills ul {
+  text-align: center;
 }
 
 .contact {
@@ -63,4 +64,8 @@ h3 {
 
 .contact h3 {
   text-align: center;
+}
+
+.contact a {
+  text-decoration: none;
 }
