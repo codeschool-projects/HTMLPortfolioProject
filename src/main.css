@@ -72,10 +72,16 @@ h3 {
   padding: 35px;
   background-color: white;
   color:#123C69;
+  text-align: center;
+  margin: 10px;
 
 }
 
 .contact a:visited {
   text-decoration: none;
   color:#123C69;
+}
+
+.contact a:hover {
+  
 }
