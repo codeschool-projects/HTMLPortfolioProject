@@ -68,4 +68,14 @@ h3 {
 
 .contact a {
   text-decoration: none;
+  border: solid, white, 2px;
+  padding: 35px;
+  background-color: white;
+  color:#123C69;
+
+}
+
+.contact a:visited {
+  text-decoration: none;
+  color:#123C69;
 }
