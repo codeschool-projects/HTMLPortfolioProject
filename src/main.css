@@ -70,6 +70,13 @@ h3 {
   text-decoration: none;
   text-align: center;
   display: block;
+  border: solid, white, 2px;
+  padding: 35px;
+  background-color: white;
+  color:#123C69;
+  text-align: center;
+  margin: 10px;
+
 }
 
 
