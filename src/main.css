@@ -69,6 +69,7 @@ h3 {
 .contact a {
   text-decoration: none;
   text-align: center;
+  display: block;
 }
 
 
