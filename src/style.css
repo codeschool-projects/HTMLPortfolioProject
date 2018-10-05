@@ -1,0 +1,378 @@
+
+*{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;font-family: Arial;}
+body{
+	background-image:;
+}
+
+#container{
+	width: 100%;
+	
+	min-height: 100px;
+}
+#nav{
+	display: none;
+	background-image: url("ham.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 40px;
+	height: 30px;
+	position: absolute;
+	left: 90%;
+	top: 5%;
+	
+}
+/*==========================================|   LAYOUT  |=========================================================*/
+.header{
+	
+	height:12%;    /*80px;*/
+	width: 100%;
+	color:grey;
+}
+
+
+
+.main1{
+	
+	background-image:url("sea.jpg"),url("fall.png");
+	background-attachment:fixed;
+	background-position:left;
+	background-repeat: no-repeat;
+	height:660px;
+	width:100%;
+	color:white;
+}
+
+
+
+
+
+
+.main3{
+	background-color:#F5F5F5;
+	
+	
+	float: left;
+}
+.main4{
+	background-image:url("waves.jpg");
+	background-attachment:fixed;
+	background-position:center;
+	height:460px;
+	width:100%;
+	color:white;
+	float: left;
+}
+
+.main5{
+	width:100%;
+	float: left;
+	margin-top: 100px;
+}
+.main6{
+	background-color: #0E1015;
+	
+	width: 100%;
+	float: left;
+	color: white;
+
+}
+
+.main7{
+	background-image:url("night.jpg");
+	background-attachment:fixed;
+	background-position:center;
+	height:560px;
+	width:100%;
+	color:white;
+	float: left;
+}
+.main8{
+	float: left;
+}
+
+.footer{
+	background-color: #0E1015;
+	float: left;
+	color: white;
+	width: 100%;
+}
+
+
+
+/*=========================================|   STYLE   |===========================================================*/
+
+
+/*-----------------------------------------------------*/
+nav h2{
+	text-indent: -10000px;
+	margin: 0px;
+
+}
+
+#shapely{
+	/*display:block;
+	width:30%;
+	text-align: center;
+	padding-right:20%;
+	font-size:280%;
+	font-weight:lighter;
+	float: left;*/
+
+	
+	background-size: contain;
+	background-position: center;
+
+	background-repeat: no-repeat;
+	text-indent: -1000px;
+	width: 20%;
+	height: 100%;
+	margin:0px 10px;
+	padding: 0px ; 
+	
+}
+.header ul{
+	float:right;
+}
+
+.header li{                       /* menu in header*/
+	font-weight: bold;
+	padding-left: 5%
+	font-size: 100%;
+	float:left;
+	list-style-type:none;
+}
+
+
+.header a{
+	padding:4px 8px 4px 8px;
+	text-decoration:none;
+	border-radius:4px;
+	color:grey;
+	
+   
+}
+
+.header a:hover{
+	background-color:darkgrey;
+	color:white;
+}
+/*----------------------------------------------------*/
+
+.download{                                   /*Buttons*/                       
+	height:10%;
+	width:20%;
+	background-color:rgba(0,0,0,0.0);
+    border:1.5px solid white;
+	color:white;
+	font-weight:bold;
+}
+.download:hover{
+
+	background-color:white;
+	color:black;
+	cursor:hand;
+	opacity:0.7;
+}
+.readmore0{
+border:2px solid red;
+	
+	height:10%;
+	width:20%;
+	background-color:#5544C7 ;
+	border:none;
+    color:white;
+	font-weight:bold;
+	transition: opacity 0.3s ease-in-out;
+	opacity:0.8;
+}
+
+.readmore{
+border:2px solid red;
+	
+	height:10%;
+	width:50%;
+	background-color:#5544C7 ;
+	border:none;
+    color:white;
+	font-weight:bold;
+	transition: opacity 0.3s ease-in-out;
+	opacity:0.8;
+}
+
+
+.readmore:hover{
+	background-color:#5544C7  ;
+	opacity: 1;
+	cursor:hand;
+}
+
+/*------------------------------------------------------------*/
+
+.image{                                         /* Image */
+	padding-top:7%;    /*padding : 95px 100px 95px 105px*/
+	padding-left: 7.68%;
+	float:left;
+	width: 45%;
+
+
+
+}
+.card1{                                 /*Paragraph card*/
+	padding-top:11%;      /*130px;*/
+    padding-bottom:100px;
+	margin-right:100px;
+	margin-left:8%;   /*100px*/
+	float:left;
+	width:28%;
+
+}
+.para{
+
+	line-height:25px;
+	color:#9BA4AA;
+	font-size:17px;
+	font-weight:normal;
+
+
+}
+
+/*----------------------------------------------------------*/
+.collage{
+	margin:0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	transition: opacity 0.2s ease-in-out;
+
+}
+.collage:hover{
+	opacity:0.5;
+	cursor: hand;
+
+}
+.clients{
+	padding-left: 50px;
+	padding-right: 50px; 
+}
+
+/*-----------------------------------------------------*/
+.logo{                           /* logos in footer*/
+	height: 25px;
+	width: 25px;
+}
+.footer .logo{
+	opacity: 0.6;
+}
+.footer .logo:hover{
+	opacity: 1.0;
+	background-color: none;
+}
+
+/*-----------------------------------------------------*/
+
+
+	.main5 p{margin-left: 200px;margin-right: 200px;}
+	.main7 h3{
+		line-height:28px;
+		font-family:Arial;
+		font-size:16px;
+		font-weight:lighter;
+		margin:10px 250px 10px 250px;
+	}
+	.main1 h1{font-size:70px;color:white;font-family:Helvetica Neue;font-weight:normal}
+	.main1 h3{font-size:20px;font-weight:normal;}
+	.main4 h1{font-size:70px;color:white;font-family:Helvetica Neue;font-weight:normal}
+	.main4 h3{font-size:17px;font-weight:lighter;margin:10px 200px 10px 200px;}
+	#sunset{height:112vh; width:88vw;}
+
+/*==========================================|   MEDIA QUERIES    |==============================================*/
+
+
+
+
+@media (max-width:1190px){
+
+/*----------------------CLIENTS PIC IN SECTION8-------*/
+	.clients{
+		padding-left: 0px;
+		padding-right: 0px; 
+		transform: scale(0.5,0.5);
+	}
+	.image{                                         /* Image */
+	padding-top:2%;    /*padding : 95px 100px 95px 105px*/
+	padding-left: 2%;
+	transform: scale(0.75,0.75);
+	float:left;
+	}
+	.card1{                                 /*Paragraph card*/
+	padding-top:5%;      /*130px;*/
+    padding-bottom:5%;
+	margin-right:2%px;
+	margin-left:5%;   /*100px*/
+	float:left;
+	width:28%;
+
+    }
+ 
+}
+
+@media screen and (max-width: 786px){
+	nav{
+		font-size:90%;
+	}
+	.main7 h3{margin:10px 100px 10px 100px;}
+	.main6{margin-left: 4%;margin-right: 2%;}
+	.collage{margin-left: 3%;margin-right: 3%;width:42%;}
+}
+
+@media screen and (max-width: 710px){
+	nav{
+		display: none;
+	}
+	#nav{
+		display: block;
+		
+	}
+	#shapely{
+		display: block;
+		margin-left: 30%;
+		width: 30%;
+	}
+	.main2{outline: 1px solid red;margin:1% 1%;width: 98%;padding-top: 0px;}
+	.image{
+		clear: both;
+		padding:0px 0px 0px 0px;
+		width: 100%;
+		
+		margin:0px 0px 0px 0px;
+		outline:1px solid green;
+
+	}
+	.card1{
+		width: 96%;
+		outline: 1px solid yellow;
+		margin:1% 1%;
+		float: right;
+	}
+	.main1 h1{font-size:40px;}
+	.main1 h3{font-size:14px;}
+	.main4 h1{font-size:40px;}
+	.main4 h3{margin:10px 100px 10px 100px;font-size:14px;}
+	.main5 p{margin-left: 100px;margin-right: 100px;}
+	.main6{margin-left: 2%;margin-right: 2%;}
+	.collage{margin-left: 2%;margin-right: 2%;width:45%;}
+	.main7 h3{margin:10px 100px 10px 100px;}
+	.clients{padding: 0px 0px;margin:0px 0px;width:30%;display: block;float: left; }
+	.download{clear:both;display:block;width: 40%;}
+	.readmore0{width: 40%;margin-top:3%;}
+}
+@media screen and (max-width: 370px){
+	.main4 h3{margin:10px 10px 10px 10px;font-size:14px;}
+	#sunset{height:65%; width:90%;}
+	.main5 p{margin-left:2px;margin-right:2px;}
+	.main7 h3{margin:4px 2px;}
+
+}
+@media screen and (max-width: 662px){
+	.main6{margin-left:2px;margin-right: 2px;}
+	.collage{margin-left: 2px;margin-right: 2px;}
+
+}

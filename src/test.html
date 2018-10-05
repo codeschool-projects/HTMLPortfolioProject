@@ -1,0 +1,371 @@
+<html>
+    <head>
+        <title>LAYOUT</title>
+     <link rel="stylesheet" type="text/css" href="style.css">
+
+     <style type="text/css">
+    *{margin:0px;padding: 0px;}
+    .divbody{margin-left: 0%;}
+#backbtn{
+  width: 40px;
+	height: 40px;
+	float: right;
+	margin:0px;
+	padding:0px;
+	background-image: url("nav-arrow-close.png");
+	background-size: contain;
+	/* z-index: 2; */
+	/* display: none; */
+
+
+}
+#btn{
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  top:165px;
+  left:10px;
+  background-image: url("nav-arrow-open.png");
+  background-size: contain;
+  z-index: 2;
+
+
+}
+
+#sidebar{
+          position: fixed;
+      left: -20%;
+      width: 20%;
+      height: 768px;
+      background: linear-gradient(to right ,#CC99CC 15%,#0033CC 85%);
+      z-index: 1;
+
+
+
+}
+#sidebar ul{
+      padding:50px 0px;
+    }
+    #sidebar ul li{
+      list-style-type: none;
+    }
+
+#sidebar  a{
+      text-decoration: none;
+      color: #CBC9F5;
+      display: block;
+      padding:20px 50px;
+      border-bottom:2px solid rgba(255,255,255,0.1) ;
+      border-bottom-right-radius: 30px;
+      border-bottom-left-radius:30px;
+
+}
+#sidebar a:hover{
+  background: linear-gradient(rgba(0,51,204,0.4) ,rgba(204,153,204,0.4));
+  box-shadow: -4px 5px 10px #042075,-12px 15px 15px #393945,-14px 20px 25px black;
+  padding:23px 30px 20px 60px;
+  font-size: 1.1em;
+}
+#sidebar h3{
+      display:inline-block;
+      padding:20px 0px 20px 20px;
+      color:#E2E2E2;
+      opacity: 0.6;
+      text-shadow: 2px 2px 1px #B6B1B3 inset;
+    }
+
+@keyframes slidebar-open{
+  from{left: -20%;}
+  to{left:0%;}
+}
+@keyframes btnopen{
+  from{left:10px;opacity: 1;}
+  to{left:220px;opacity: 0;}
+}
+@keyframes turn{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+@keyframes slidebar-close{
+  from{left: 0%;}
+  to{left:-20%;}
+}
+@keyframes btnclose{
+  from{left:220px;opacity: 0;}
+  to{left:10px;opacity: 1;}
+}
+@keyframes main{
+  from{margin-left: 0px;}
+  to{margin-left: 20%;}
+}
+@keyframes main-back{
+  from{margin-left: 20%;}
+  to{margin-left: 0px;}
+}
+  </style>
+
+  <script type="text/javascript">
+    function move(){
+       document.getElementById("btn").style.animationName = 'btnopen' ;
+       document.getElementById("btn").style.animationDuration = '2s' ;
+       document.getElementById("btn").style.animationFillMode = 'both';
+
+
+      /* document.getElementById("backbtn").style.animationName = 'turn' ;
+       document.getElementById("backbtn").style.animationDuration = '2s' ;
+       document.getElementById("backbtn").style.animationFillMode = 'both';
+       document.getElementById("backbtn").style.animationDelay = '1.65s';
+      */
+
+
+       document.getElementById("sidebar").style.animationName = 'slidebar-open' ;
+       document.getElementById("sidebar").style.animationDuration = '2s';
+       document.getElementById("sidebar").style.animationFillMode = 'both';
+
+
+        document.getElementById("divbody").style.animationName = 'main';
+       document.getElementById("divbody").style.animationDuration = '2s';
+       document.getElementById("divbody").style.animationFillMode = 'both';
+
+    }
+    function back(){
+       document.getElementById("sidebar").style.animationName = 'slidebar-close' ;
+       document.getElementById("sidebar").style.animationDuration = '2s';
+       document.getElementById("sidebar").style.animationFillMode = 'both' ;
+
+      /* document.getElementById("backbtn").style.animationName = 'turn' ;
+       document.getElementById("backbtn").style.animationDuration = '2s' ;
+       document.getElementById("backbtn").style.animationFillMode = 'both';
+       document.getElementById("backbtn").style.animationDelay = '1s';
+       document.getElementById("backbtn").style.animationDirection = 'reverse';*/
+
+       document.getElementById("btn").style.animationName = 'btnclose' ;
+       document.getElementById("btn").style.animationDuration = '2s' ;
+       document.getElementById("btn").style.animationFillMode = 'both';
+
+
+       document.getElementById("divbody").style.animationName = 'main-back';
+       document.getElementById("divbody").style.animationDuration = '2s';
+       document.getElementById("divbody").style.animationFillMode = 'both';
+
+
+    }
+
+  </script>
+    </head>
+
+<body>
+
+  <div id="btn" onclick="move()"></div>
+
+  <div id="sidebar" >
+    <h3>PortFolio</h3>
+    <div id="backbtn" onclick="back()" ></div>
+    <h5>
+    <ul>
+      <li><a href="">HOME</a></li>
+      <li><a href="">NEWS</a></li>
+      <li><a href="">My Projects </a></li>
+      <li><a href="">ABOUT US</a></li>
+      <li><a href="">CONTACT US</a></li>
+    </ul>
+  </h5>
+  </div>
+
+
+
+<div id="divbody">
+
+
+
+<!--  ==================================|    HEADER     |=================================-->
+
+
+
+<div class="header">
+  <!-- <img id="shapely" src="amazon.jpg" style="float:left;display: block;" > -->
+  <h2 style="float:left;display: block; margin-left:2em; margin-top:.6em;letter-spacing:10px;">Anish</h2>
+
+  <nav>
+    <h2>MENU</h2>
+
+
+    <ul>
+
+    	<li><a href="a.html">HOME</a></li>
+    	<li><a href="a.html">BLOG</a></li>
+    	<li><a href="a.html">PORTFOLIO</a></li>
+    	<li><a href="a.html">ABOUT US</a></li>
+    	<li><a href="a.html">PROJECTS</a></li>
+    	<li><a href="a.html">SEARCH</a></li>
+    </ul>
+
+  </nav>
+
+</div>
+
+<!--  ========================================|    SECTION1(BG IMG)    |=========================================-->
+
+<div class ="main1"><br><br><br><br><br><br><br><br><br>
+    <h1 align="center" style="" >
+        We Change Everything
+        <br>
+        WordPress
+    </h1>
+    <h3 align="center" style="">This is the only wordpress theme you will ever want to use</h3>
+    <br><br><br>
+    <div align="center">
+        <button class="download" align="center">
+            DOWNLOAD NOW
+        </button>
+        <button class="readmore0">
+            READ MORE
+        </button>
+    </div>
+
+</div>
+
+<!--  ==========================================|    SECTION 2   |===============================================-->
+
+<div class="main2">
+    <img class="image" src = "mac.png"  >
+    <div class="card1">
+	    <h1>SE O Friendly</h1><br><br>
+	    <p class="para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar luctus sem, eget porta orci. Maecenas molestie dui id diam feugiat, eu tincidunt mauris aliquam. Duis commodo vitae ligula et interdum. Maecenas faucibus mattis imperdiet. In rhoncus ac ligula id ultricies.
+	    </p>
+	    <br>
+	    <br>
+	    <button class="readmore">
+            READ MORE
+        </button>
+
+    </div>
+</div>
+<!--  ========================================|    SECTION3     |=================================================-->
+
+<div class="main3" >
+    <div class="card1">
+        <h1>
+            PortFolio Section
+        </h1><br><br>
+        <p class="para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar luctus sem, eget porta orci. Maecenas molestie dui id diam feugiat, eu tincidunt mauris aliquam. Duis commodo vitae ligula et interdum.
+        </p>
+        <br>
+        <br>
+        <button class="readmore">
+            SEE IT IN ACTION
+        </button>
+    </div>
+    <img class="image" src = "portfolio.png"  >
+</div>
+
+<!--  ==========================================|SECTION 4(BG IMG)|===============================================-->
+
+<div class ="main4"><br><br><br><br>
+    <h1 align="center" style="" >
+        Small Parallax Section
+    </h1>
+    <h3 align="center" style="">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet rhoncus porta. Ut quis sem quis purus lobortis dictum. Aliquam nec dignissim nisl. Vivamus cursus feugiat sapien, eget tincidunt leo ornare quis.
+    </h3>
+    <br><br><br>
+    <div align="center">
+        <button class="readmore0" align="center">
+            MORE INFO
+        </button>
+    </div>
+
+</div>
+<!--  ==========================================|  SECTION5   |=================================================-->
+<div class ="main5"><br><br>
+    <h1 align="center"  >
+        LimitLess Options
+    </h1>
+    <br><br>
+    <p class="para" align="center" >
+        Phasellus sed nisi ac dui interdum semper. Etiam consequat fermentum sollicitudin. Fusce vulputate porta faucibus. Vivamus nulla tellus, accumsan non efficitur id, pretium quis ante
+    </p>
+    <br><br><br>
+    <div align="center">
+        <button class="readmore" align="center">
+            DOWNLOAD NOW
+        </button>
+    </div>
+    <br><br>
+    <div align="center">
+        <img src="sunset.jpg" id="sunset" style="" >
+    </div>
+
+</div>
+
+
+<!--  ==========================================|  SECTION6   |=================================================-->
+
+
+
+<div class="main6"><br><br><br><br><br>
+   <h1 align="center" style="font-weight: lighter;">Our Latest Project</h1><br>
+   <p align="center">Here is our Latest Project.You'll love them !</p>
+
+   <img src="1.jpg" class="collage">
+   <img src="2.jpg" class="collage">
+   <img src="3.jpg" class="collage">
+   <img src="4.jpg" class="collage">
+   <img src="5.jpg" class="collage">
+   <img src="6.jpg" class="collage">
+   <img src="7.jpg" class="collage">
+   <img src="8.jpg" class="collage">
+   <img src="9.jpg" class="collage">
+   <img src="10.jpg" class="collage">
+</div>
+
+<!--  =======================================|  SECTION7(BG IMG)|=================================================-->
+
+
+
+<div class ="main7"><br><br><br><br><br><br><br>
+    <h6 align="center" style="font-size:30px;color:white;font-family:monospace;font-weight:normal" >What Our Customers Say
+    </h6><br><br>
+    <h3 align="center" style="">Integer ut rutrum nulla, sit amet fringilla nisi. Nam nisl velit, vehicula at nibh sed, porttitor sollicitudin ante. Sed justo augue, vestibulum ut efficitur vitae, euismod et justo. Mauris sed mattis ante. Ut ligula lectus, consequat vitae neque ac, gravida hendrerit ante.</h3>
+    <br><br><br>
+    <div align="center"><button class="readmore0" align="center">MORE INFO</button>
+    </div>
+
+</div>
+
+<!--  ==========================================|  SECTION8   |=================================================-->
+
+
+
+<div class="main8"><br><br><br><br><br>
+  <h1 align="center" style="font-weight: lighter;">Our Clients</h1><br>
+  <p align="center">Here is our Latest Clients !</p>
+
+  <img src="google.gif" class="clients">
+  <img src="intel.jpg" class="clients">
+  <img src="dell.jpg" class="clients">
+</div>
+
+<!--  ==========================================|  FOOTER   |=================================================-->
+
+
+
+<br><br><br><br><br>
+<div class="footer"><span style="color: white;">&copy; ALL RIGHTS RESERVED</span>
+   <div align="center" style="width: 80%;color: white;padding: 50px 20px 50px 20px;"><h4 style="">Theme by Colorlib Powered by WordPress </h4></div>Cotact us : +919821455745
+    <div style="float: right;margin-right: 40px;">
+    <a href="a.html"><img src="facebook1.png" class="logo"></a>
+    <a href="a.html"><img src="twitter1.png" class="logo"></a>
+    <a href="a.html"><img src="in.png" class="logo"></a>
+     <a href="a.html"><img src="inst.jpg" class="logo"></a>
+    <a href="a.html"><img src="youtube.png" class="logo"></a>
+    <a href="a.html"><img src=""></a>
+    </div>
+   <br><br>
+</div>
+<!--  ===========================================================================================================-->
+</div>
+</body>
+</html>
