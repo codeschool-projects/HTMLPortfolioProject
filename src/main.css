@@ -1,0 +1,83 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: monospace;
+  font-weight: bold;
+
+}
+
+.bg{
+  height:60vh;
+  background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.6)) , url("images\\header.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  filter: blur(3px);
+  position: relative;
+}
+.text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family:monospace;
+    letter-spacing: 8px;
+}
+.text h1{
+  font-size: 4em;
+  margin-bottom: 1.3em;}
+.tagline{
+  color:#444444;
+  padding:1.5em 15%;
+  background-color: #F5F5F5;
+}
+.tagline h3{
+  font-size: 2em;
+  margin: 1.3em 0;
+}
+.tagline p{
+  font-size:1.4em;
+  font-family:monospace;
+  font-weight: lighter;
+}
+.skills{
+  background-color:#EA1D63;
+  padding:1em 15%;
+}
+.skills h3{
+  color:white;
+  font-size:2em;
+  margin:1em 0;
+
+}
+.skills p{
+  font-size: 1.6em;
+  color: #D2D3D2;
+  font-weight: lighter;
+}
+.skills ul li{
+  margin:0.8em 0;
+  font-size: 1.4em;
+  color: #D2D3D2
+}
+.contact{
+  color:#444444;
+  padding:1.5em 15%;
+  background-color: #F5F5F5;
+}
+.contact h3{
+  font-size: 2em;
+  margin:1.1em 0;
+}
+.contact p{
+  font-size: 1.6em;
+  margin: 1.1em 0;
+}
+.contact ul li{
+  list-style-type: none;
+  margin:1em;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
