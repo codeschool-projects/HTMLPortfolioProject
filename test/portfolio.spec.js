@@ -32,7 +32,6 @@ describe('The webpage', () => {
     });
   });
 
-
   /**
    * TAGLINE
    */
@@ -95,7 +94,7 @@ describe('The webpage', () => {
         .map(li => li.textContent)
         .filter(skill => htmlRegex.test(skill));
 
-      assert.equal(skillsWithHtml.length, 1, 'HTML needs be part of one of your skills.');
+      assert.equal(skillsWithHtml.length, 1, 'HTML and CSS needs be part of one of your skills.');
     });
   });
 
