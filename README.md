@@ -1,11 +1,14 @@
 # HTML Portfolio
 
-You'll create a personal web page to show off your work. We will test your HTML knowledge, and then it will be up to you to use CSS to style your own page and make it unique.
+You'll be able to create a personal web page to showcase your skills. 
+We will test your knowledge in HTML. The CSS styling will be upto you and You can style your page in your own unique ways.
+
 
 ## What You'll Build
 
-The end result will be a portfolio that you can deploy publicly! Here's a sample of what this could look like:
+The end result will be a portfolio that you can deploy publicly! The look of the portfolio solely depends on your CSS styling.
 
+Here's a sample of what this portfolio could look like:
 ![Sample Portfolio](http://courseware.codeschool.com.s3.amazonaws.com/projects/build-a-portfolio-using-html-and-css.png)
 
 ## What You'll Learn
