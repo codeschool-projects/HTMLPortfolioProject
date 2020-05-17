@@ -7,8 +7,8 @@ We will test your knowledge in HTML. The CSS styling will be upto you and You ca
 ## What You'll Build
 
 The end result will be a portfolio that you can deploy publicly! The look of the portfolio solely depends on your CSS styling.
-
 Here's a sample of what this portfolio could look like:
+
 ![Sample Portfolio](http://courseware.codeschool.com.s3.amazonaws.com/projects/build-a-portfolio-using-html-and-css.png)
 
 ## What You'll Learn
