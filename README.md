@@ -98,7 +98,7 @@ Lastly, we just need a way for people to get in touch with us! In the paragraph 
 
 ## Next Steps
 
-Now that we have a working portfolio site, the next (optional) step is to style it. If you want to learn how to style this one with Bootstrap, head over to the [Build a Portfolio Using Bootstrap)(/projects/build-a-portfolio-using-twitter-bootstrap) project.
+Now that we have a working portfolio site, the next (optional) step is to style it. If you want to learn how to style this one with Bootstrap, head over to the [Build a Portfolio Using Bootstrap](/projects/build-a-portfolio-using-twitter-bootstrap) project.
 
 If you’d rather style it on your own, now’s an excellent chance to add a stylesheet to this project and use those CSS skills!
 
