@@ -24,7 +24,7 @@ We'll dive into a number of basic HTML concepts, including:
 ## What You'll Need
 
 1) You should have a Github Account. &nbsp;
-2) Git must be installed on your system and a text editor to edit HTML. We recommend using GitHub's [Atom Editor](https://atom.io/), which is free and very powerful. The [Brackets](http://brackets.io/) editor is another great tool.
+2) Git must be installed on your system and a text editor to edit HTML. We recommend using GitHub's [Atom Editor](https://atom.io/), which is free and very powerful. The [Brackets](http://brackets.io/) source code editor is another great tool.
 
 ## Live Demo
 
@@ -53,43 +53,43 @@ Complete the following tasks to finish this project.
 
 ### Create the Page Header
 
-At the top of our page, we'll want to create an element with a class of `header` for us to add some information about ourselves.	MENU
+At the top of our page, we'll want to create an element with a class of `header` to add some information about ourselves.
 
 ### Header Text
 
-Inside of our `.header` element, create an `h1` tag with your name in it. This is your portfolio, so it makes sense for your name to have the most prominence.	MENU
+Inside of our `.header` element, create an `h1` tag with your name in it. This is your portfolio, so it makes sense for your name to have the most prominence.
 
 ### Job Title
 
-Also inside the `.header` element, add a `h2` tag with a job title (ie. "software developer", or "web designer", or "maker of things", etc).	MENU
+Also inside the `.header` element, add a `h2` tag with a job title (ie. "software developer", or "web designer", or "maker of things", etc).
 
 ### The Tagline Element
 
-Next, create a new element that has a CSS class called `tagline`. In this element you'll be giving a little more information about yourself.	MENU
+Next, create a new element that has a CSS class called `tagline`. In this element you'll be giving a little more information about yourself.
 
 ### A Little About You
 
-Inside the `.tagline` element, create a `h3` tag inviting the visitor to learn more about you (ie. "Learn More About Me", or "Here's What I Do", etc). Also add an introductory paragraph with more information about yourself, including what things you're passionate about, programming languages you enjoy writing in, etc.	MENU
+Inside the `.tagline` element, create a `h3` tag inviting the visitor to learn more about you (ie. "Learn More About Me", or "Here's What I Do", etc). Also add an introductory paragraph with more information about yourself, including what things you're passionate about, programming languages you enjoy writing in, etc.	
 
 ### The Skills Element
 
-Next, we'll create a place to list out our current skills by creating an element with a class of `skills`. In here we'll be listing out what we already know.	MENU
+Next, we'll create a place to list out our current skills by creating an element with a class of `skills`. In here we'll be listing out what we already know.	
 
 ### Skills Content
 
-Inside the `.skills` element, create a `h3` tag inviting the user to learn more about your skills (ie. "my skills"). Also add a paragraph tag describing your skills (ie. "I enjoy writing front-end code with these technologies").	MENU
+Inside the `.skills` element, create a `h3` tag inviting the user to learn more about your skills (ie. "my skills"). Also add a paragraph tag describing your skills (ie. "I enjoy writing front-end code with these technologies").
 
 ### List of Skills
 
-Inside the `.skills` element, create a new `ul` which will be a list of of your skills. In here, add 3 skills you currently possess. `HTML` must be one of these skills.	MENU
+Inside the `.skills` element, create a new `ul` which will be a list of of your skills. In here, add 3 skills you currently possess. `HTML` must be one of these skills.
 
 ### The Contact Element
 
-The last section of our page will give people a way to contact us. Create a wrapper element for this area and give it a class of `contact`.	MENU
+The last section of our page will give people a way to contact us. Create a wrapper element for this area and give it a class of `contact`.
 
 ### Contact Copy
 
-Inside the `.contact` element, create a `h3` tag inviting the user to contact you (ie. "contact me", or "drop me a line"). Also add a paragraph tag describing how people can contact you.	MENU
+Inside the `.contact` element, create a `h3` tag inviting the user to contact you (ie. "contact me", or "drop me a line"). Also add a paragraph tag describing how people can contact you.
 
 ### Contact Link
 
