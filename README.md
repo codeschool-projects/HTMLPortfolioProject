@@ -16,22 +16,26 @@ Here's a sample of what this portfolio could look like:
 We'll dive into a number of basic HTML concepts, including:
 
 * Creating an HTML page
-* Using classes to organize your page and tie in styles
+* Using classes to organize your page and tie in CSS styles
 * Using headings to denote importance
-* Adding text using paragraphs
+* Adding text using paragraph tags
 * Creating links so users can contact you
 
 ## What You'll Need
 
-You'll need a GitHub account, Git installed locally, and a text editor to edit HTML. We recommend using GitHub's [Atom Editor](https://atom.io/), which is free and very powerful. The [Brackets](http://brackets.io/) editor is another great tool.
+1)You should have a Github Account
+2) Git must be installed on your system and a text editor to edit HTML. 
+We recommend using GitHub's [Atom Editor](https://atom.io/), which is free and very powerful. The [Brackets](http://brackets.io/) editor is another great tool.
 
 ## Live Demo
 
-Here is a [working version of this project](https://codeschool-project-demos.github.io/HTMLPortfolioProject/), and now it is your job to out-do our version of this project by customizing your portfolio even further and adding more CSS rules, etc. We can't wait to see what you come up with!
+Here is a [working version of this project](https://codeschool-project-demos.github.io/HTMLPortfolioProject/), and now it is your job to out-do our version of this project by customizing your portfolio even further and adding more CSS rules, etc. 
+We can't wait to see what you come up with!
 
 ## Setup
 
-Once you have cloned the forked repository, go into the directory containing the project and look for the `/src` directory. This is the directory where you will be making changes when you start following the step-by-step instructions. You can simply open those files in a text editor and get started.
+Fork this repository using the Fork button present on the top right corner or Clone the repository to your system.
+After that, Go into the directory containing the project and look for the `/src` directory. This is the directory where you will be making changes when you start following the step-by-step instructions. You can simply open those files in a text editor and get started.
 
 You can always open the index.html file directly in your browser and work through the tasks below. You can also head over to the [Node.js](https://nodejs.org) website and follow the instructions to install Node on your machine. Once you have Node installed, open your command line and follow these instructions:
 
