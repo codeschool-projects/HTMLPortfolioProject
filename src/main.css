@@ -1,0 +1,56 @@
+*{
+	margin: 0px 0px 0px;
+	font-family: Serif;
+}
+
+
+img{
+	height: 500px;
+	width: 100%;
+}
+
+h2{
+	color: #cf1c08;
+}
+
+header{
+	text-align: center;
+	margin-top: -350px;
+	font-size: 50px;
+}
+
+.tagline{
+	margin-top: 145px;
+	padding-bottom: 20px;
+	background-color: purple;
+}
+
+.skills{
+	background-color: pink;
+	padding-bottom: 20px;
+}
+
+.contact{
+	background-color: yellow;
+	padding-bottom: 20px;
+	height: 80px;
+}
+
+h3{
+	text-align: center;
+	font-size: 50px;
+	color : red;
+}
+
+ul{
+	margin-left: 50px;
+	font-size: 30px;
+	color : #1e2857;
+}
+
+p{
+	margin-left: 50px;
+	font-size: 30px;
+	color : green;
+}
+
