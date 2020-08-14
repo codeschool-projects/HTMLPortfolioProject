@@ -1,0 +1,31 @@
+*{
+	margin: 0px 0px 0px;
+}
+
+
+img{
+	height: 500px;
+	width: 100%;
+}
+
+header{
+	text-align: center;
+	margin-top: -350px;
+	color: red;
+	font-size: 50px;
+}
+
+.tagline{
+	margin-top: 145px;
+	background-color: purple;
+}
+
+.skills{
+	background-color: pink;
+}
+
+.contact{
+	background-color: yellow;
+	height: 80px;
+}
+
