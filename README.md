@@ -83,11 +83,11 @@ The last section of our page will give people a way to contact us. Create a wrap
 
 ### Contact Copy
 
-Inside the `.contact` element, create a `h3` tag inviting the user to contact you (ie. "contact me", or "drop me a line"). Also add a paragraph tag describing how people can contact you.	MENU
+Inside the `.contact` element, create a `h3` tag inviting the user to contact you (e.g. "contact me", or "drop me a line"). Also add a paragraph tag describing how people can contact you.	MENU
 
 ### Contact Link
 
-Lastly, we just need a way for people to get in touch with us! In the paragraph you created, add an anchor tag (an `<a>` element) pointing people to a place where they can get more information about you (ie. Twitter, LinkedIn, Github, etc).
+Lastly, we just need a way for people to get in touch with us! In the paragraph you created, add an anchor tag (an `<a>` element) pointing people to a place where they can get more information about you (e.g. Facebook, Twitter, LinkedIn, Github, etc).
 
 
 ## Next Steps
