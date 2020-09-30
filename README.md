@@ -1,6 +1,6 @@
 # HTML Portfolio
 
-You'll create a personal web page to show off your work. We will test your HTML knowledge, and then it will be up to you to use CSS to style your own page and make it unique.
+You'll create a personal web page to show off your work. We will test your HTML knowledge and then it will be up to you to use CSS to style your own page and make it unique.
 
 ## What You'll Build
 
@@ -104,4 +104,4 @@ Putting this site up on GitHub pages is a bit different than some other projects
 git subtree push --prefix src origin gh-pages
 ```
 
-This will push the `src` folder up to GitHub on the `gh-pages` branch. After that, you should be able to open up `http://username.github.io/HTMLPortfolioProject`, where `username` is your GitHub username.
+This will push the `src` folder up to GitHub on the `gh-pages` branch and After that, you should be able to open up `http://username.github.io/HTMLPortfolioProject`, where `username` is your GitHub username.
