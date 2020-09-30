@@ -2,7 +2,7 @@
 
 You'll create a personal web page to show off your work. We will test your HTML knowledge, and then it will be up to you to use CSS to style your own page and make it unique.
 
-## What You'll Build
+## What You Will Build
 
 The end result will be a portfolio that you can deploy publicly! Here's a sample of what this could look like:
 
