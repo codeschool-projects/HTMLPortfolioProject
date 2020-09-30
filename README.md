@@ -18,7 +18,7 @@ We'll dive into a number of basic HTML concepts, including:
 * Adding text using paragraphs
 * Creating links so users can contact you
 
-## What You'll Need
+## What You'll Need (Important)
 
 You'll need a GitHub account, Git installed locally, and a text editor to edit HTML. We recommend using GitHub's [Atom Editor](https://atom.io/), which is free and very powerful. The [Brackets](http://brackets.io/) editor is another great tool.
 
@@ -71,7 +71,7 @@ Next, we'll create a place to list out our current skills by creating an element
 
 ### Skills Content
 
-Inside the `.skills` element, create a `h3` tag inviting the user to learn more about your skills (ie. "my skills"). Also add a paragraph tag describing your skills (ie. "I enjoy writing front-end code with these technologies").	MENU
+Inside the `.skills` element, create a `h4` tag inviting the user to learn more about your skills (ie. "my skills"). Also add a paragraph tag describing your skills (ie. "I enjoy writing front-end code with these technologies").	MENU
 
 ### List of Skills
 
