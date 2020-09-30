@@ -15,9 +15,7 @@
 
 .header_area .main_menu .nav-item .nav-link{
     font: normal 900 15px/2px;
-    /* font-weight: 500; */
     font-size: 20px;
-    /* font-family: var(--roboto); */
     color: #141313;
     text-transform: uppercase;
 
