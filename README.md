@@ -30,7 +30,7 @@ Here is a [working version of this project](https://codeschool-project-demos.git
 
 Once you have cloned the forked repository, go into the directory containing the project and look for the `/src` directory. This is the directory where you will be making changes when you start following the step-by-step instructions. You can simply open those files in a text editor and get started.
 
-You can always open the index.html file directly in your browser and work through the tasks below. You can also head over to the [Node.js](https://nodejs.org) website and follow the instructions to install Node on your machine. Once you have Node installed, open your command line and follow these instructions:
+You can always open the index.html file directly in your browser and work through the tasks below. You can also head over to the [Node.js:](https://nodejs.org) or (https://nodejs.org/en/download/) website and follow the instructions to install Node on your machine. Once you have Node installed, open your command line and follow these instructions:
 
 ```
 cd HTMLPortfolioProject
