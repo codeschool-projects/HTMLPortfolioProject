@@ -1,0 +1,9 @@
+WANT TO CONTRIBUTE ?
+
+Here are the guidelines for that:
+
+1. Fork the project to your account so that a replica of the project is made.
+
+2. Before going to add an idea or fix a bug, go to Issues section and look for any pending issues.
+
+3. After you have made changes or fixed a bug, create a pull request describing what did you updated or fixed.
