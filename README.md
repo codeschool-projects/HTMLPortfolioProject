@@ -14,7 +14,7 @@ We'll dive into a number of basic HTML concepts, including:
 
 * Creating an HTML page
 * Using classes to organize your page and tie in styles
-* Using headings to denote importance
+* Using headings to denote the importance
 * Adding text using paragraphs
 * Creating links so users can contact you
 
@@ -75,7 +75,7 @@ Inside the `.skills` element, create a `h3` tag inviting the user to learn more 
 
 ### List of Skills
 
-Inside the `.skills` element, create a new `ul` which will be a list of of your skills. In here, add 3 skills you currently possess. `HTML` must be one of these skills.	MENU
+Inside the `.skills` element, create a new `ul` which will be a list of your skills. In here, add 3 skills you currently possess. `HTML` must be one of these skills.	MENU
 
 ### The Contact Element
 
