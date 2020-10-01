@@ -2,11 +2,12 @@
 
 You'll create a personal web page to show off your work. We will test your HTML knowledge, and then it will be up to you to use CSS to style your own page and make it unique.
 
-## What You'll Build
+## What You'll Build:-
 
 The end result will be a portfolio that you can deploy publicly! Here's a sample of what this could look like:
 
-![Sample Portfolio](http://courseware.codeschool.com.s3.amazonaws.com/projects/build-a-portfolio-using-html-and-css.png)
+![Sample Portfoliot]
+(http://courseware.codeschool.com.s3.amazonaws.com/projects/build-a-portfolio-using-html-and-css.png)
 
 ## What You'll Learn
 
@@ -18,7 +19,7 @@ We'll dive into a number of basic HTML concepts, including:
 * Adding text using paragraphs
 * Creating links so users can contact you
 
-## What You'll Need
+## What You'll Need:-
 
 You'll need a GitHub account, Git installed locally, and a text editor to edit HTML. We recommend using GitHub's [Atom Editor](https://atom.io/), which is free and very powerful. The [Brackets](http://brackets.io/) editor is another great tool.
 
