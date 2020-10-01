@@ -1,6 +1,6 @@
 # HTML Portfolio
 
-You'll create a personal web page to show off your work. We will test your HTML knowledge, and then it will be up to you to use CSS to style your own page and make it unique.
+You'll create a personal web page to show off your work. We will test your HTML knowledge, and then it will be up to you to use CSS to style your own page and make it unique. You can also use javascript for making your webpage interactive.
 
 ## What You'll Build
 
@@ -12,7 +12,7 @@ The end result will be a portfolio that you can deploy publicly! Here's a sample
 
 We'll dive into a number of basic HTML concepts, including:
 
-* Creating an HTML page
+* Creating an HTML webpage
 * Using classes to organize your page and tie in styles
 * Using headings to denote importance
 * Adding text using paragraphs
@@ -20,7 +20,7 @@ We'll dive into a number of basic HTML concepts, including:
 
 ## What You'll Need
 
-You'll need a GitHub account, Git installed locally, and a text editor to edit HTML. We recommend using GitHub's [Atom Editor](https://atom.io/), which is free and very powerful. The [Brackets](http://brackets.io/) editor is another great tool.
+You'll need a GitHub account, Git installed locally, and a text editor to edit HTML. We recommend using GitHub's [Atom Editor](https://atom.io/), which is free and very powerful. The [Brackets](http://brackets.io/) editor is another great tool. But you can also go with any text editor like Notepad, Nano, etc. as per your choice.
 
 ## Live Demo
 
