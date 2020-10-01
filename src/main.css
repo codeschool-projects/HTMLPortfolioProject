@@ -1,0 +1,14 @@
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Center */
+.text-block {
+  position: absolute;
+  bottom: 800px;
+  right: 500px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
