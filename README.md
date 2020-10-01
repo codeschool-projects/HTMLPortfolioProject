@@ -4,7 +4,7 @@ You'll create a personal web page to show off your work. We will test your HTML 
 
 ## What You'll Build
 
-The end result will be a portfolio that you can deploy publicly! Here's a sample of what this could look like:
+The end result will be a portfolio that you can deploy publicly! Here's a sample of what this could look like:-
 
 ![Sample Portfolio](http://courseware.codeschool.com.s3.amazonaws.com/projects/build-a-portfolio-using-html-and-css.png)
 
@@ -47,7 +47,7 @@ Complete the following tasks to finish this project.
 
 ### Create the Page Header
 
-At the top of our page, we'll want to create an element with a class of `header` for us to add some information about ourselves.	MENU
+At the top of our page, we want to create an element with a class of `header` for us to add some information about ourselves.	MENU
 
 ### Header Text
 
