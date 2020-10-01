@@ -4,7 +4,7 @@ You'll create a personal web page to show off your work. We will test your HTML 
 
 ## What You'll Build
 
-The end result will be a portfolio that you can deploy publicly! Here's a sample of what this could look like:
+The end result will be a portfolio that you can deploy publicly! Here's a sample of what this could look like:-
 
 ![Sample Portfolio](http://courseware.codeschool.com.s3.amazonaws.com/projects/build-a-portfolio-using-html-and-css.png)
 
@@ -12,11 +12,11 @@ The end result will be a portfolio that you can deploy publicly! Here's a sample
 
 We'll dive into a number of basic HTML concepts, including:
 
-* Creating an HTML page
-* Using classes to organize your page and tie in styles
-* Using headings to denote importance
-* Adding text using paragraphs
-* Creating links so users can contact you
+* Creating an HTML page.
+* Using classes to organize your page and tie in styles.
+* Using headings to denote importance.
+* Adding text using paragraphs.
+* Creating links so users can contact you.
 
 ## What You'll Need
 
