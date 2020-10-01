@@ -1,4 +1,4 @@
-<strong> <h3> <center> HTML </center> </h3> </strong>
+<strong> <h3> <center> HTML: Hyper Text Markup Language </center> </h3> </strong>
 
 # HTML Portfolio
 
