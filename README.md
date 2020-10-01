@@ -1,4 +1,4 @@
-# HTML Portfolio
+# Minimal HTML Portfolio
 
 You'll create a personal web page to show off your work. We will test your HTML knowledge, and then it will be up to you to use CSS to style your own page and make it unique.
 
@@ -73,7 +73,7 @@ Next, we'll create a place to list out our current skills by creating an element
 
 Inside the `.skills` element, create a `h3` tag inviting the user to learn more about your skills (ie. "my skills"). Also add a paragraph tag describing your skills (ie. "I enjoy writing front-end code with these technologies").	MENU
 
-### List of Skills
+### List of Your Skills
 
 Inside the `.skills` element, create a new `ul` which will be a list of of your skills. In here, add 3 skills you currently possess. `HTML` must be one of these skills.	MENU
 
