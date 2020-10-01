@@ -1,4 +1,4 @@
-# HTML Portfolio
+# HTML Portfolio - Web Layouts
 
 You'll create a personal web page to show off your work. We will test your HTML knowledge, and then it will be up to you to use CSS to style your own page and make it unique.
 
@@ -22,7 +22,7 @@ We'll dive into a number of basic HTML concepts, including:
 
 You'll need a GitHub account, Git installed locally, and a text editor to edit HTML. We recommend using GitHub's [Atom Editor](https://atom.io/), which is free and very powerful. The [Brackets](http://brackets.io/) editor is another great tool.
 
-## Live Demo
+## Live Demo - It's free
 
 Here is a [working version of this project](https://codeschool-project-demos.github.io/HTMLPortfolioProject/), and now it is your job to out-do our version of this project by customizing your portfolio even further and adding more CSS rules, etc. We can't wait to see what you come up with!
 
