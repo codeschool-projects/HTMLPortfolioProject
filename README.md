@@ -17,6 +17,7 @@ We'll dive into a number of basic HTML concepts, including:
 * Using headings to denote importance
 * Adding text using paragraphs
 * Creating links so users can contact you
+* Creating your own CSS design
 
 ## What You'll Need
 
