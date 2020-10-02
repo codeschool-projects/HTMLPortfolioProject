@@ -87,7 +87,7 @@ Inside the `.contact` element, create a `h3` tag inviting the user to contact yo
 
 ### Contact Link
 
-Lastly, we just need a way for people to get in touch with us! In the paragraph you created, add an anchor tag (an `<a>` element) pointing people to a place where they can get more information about you (ie. Twitter, LinkedIn, Github, etc).
+Lastly, we just need a way for people to get in touch with us! In the paragraph you created, add an anchor tag (an `<a>` element) pointing people to a place where they can get more information about you (ie. Twitter, LinkedIn, GitHub, etc).
 
 
 ## Next Steps
