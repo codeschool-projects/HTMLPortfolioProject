@@ -10,13 +10,13 @@ The end result will be a portfolio that you can deploy publicly! Here's a sample
 
 ## What You'll Learn
 
-We'll dive into a number of basic HTML concepts, including:
+We'll dive into a number of basic of HTML concepts, including:
 
 * Creating an HTML page
-* Using classes to organize your page and tie in styles
+* Using classes to organize your page and ties in styles
 * Using headings to denote importance
-* Adding text using paragraphs
-* Creating links so users can contact you
+* Adding text using paragraphs tag
+* Creating links so users can get in contact with you
 
 ## What You'll Need
 
