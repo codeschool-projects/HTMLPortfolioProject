@@ -1,19 +1,20 @@
 /*start navigation*/
 .header_area .main_menu .navbar-nav .active a{
-    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);;
+      background: linear-gradient(90deg, #f05353 0%, #ec2dbd 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 
 }
 .header_area .main_menu .navbar-nav a:hover{
-    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+   background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 .header_area .main_menu .nav-item .nav-link{
+    font-family: 'Architects Daughter', cursive;
     font: normal 900 15px/2px;
     font-size: 20px;
     color: #141313;
