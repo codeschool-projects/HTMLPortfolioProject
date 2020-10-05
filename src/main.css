@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Bad Script", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  color: #111;
+  font-size:5vw;
+}
+h1 span {
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+ 
+  animation-name: animate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+h1 span:nth-child(1){
+animation-delay: 0s;
+}
+h1 span:nth-child(2){
+    animation-delay: 0.25s;
+}
+h1 span:nth-child(3){
+    animation-delay: 0.5s;
+}
+h1 span:nth-child(4){
+    animation-delay: 0.75s;
+}
+h1 span:nth-child(5){
+    animation-delay: 1s;
+}
+h1 span:nth-child(6){
+    animation-delay: 1.25s;
+}
+h1 span:nth-child(7){
+    animation-delay: 1.5s;
+}
+h1 span:nth-child(9){
+    animation-delay: 2s;
+}
+h1 span:nth-child(10){
+    animation-delay: 2.25s;
+}
+h1 span:nth-child(12){
+    animation-delay: 2.5s;
+}
+h1 span:nth-child(13){
+    animation-delay: 2.75s;
+}
+h1 span:nth-child(14){
+    animation-delay: 3s;
+}
+h1 span:nth-child(16){
+    animation-delay: 3.25s;
+}
+h1 span:nth-child(17){
+    animation-delay: 3.5s;
+}
+h1 span:nth-child(18){
+    animation-delay: 3.75s;
+}
+h1 span:nth-child(19){
+    animation-delay: 4s;
+}
+h1 span:nth-child(21){
+    animation-delay: 4.25s;
+}
+h1 span:nth-child(22){
+    animation-delay: 4.5s;
+}
+h1 span:nth-child(23){
+    animation-delay: 4.75s;
+}
+h1 span:nth-child(24){
+    animation-delay: 5s;
+}
+h1 span:nth-child(25){
+    animation-delay: 5.25s;
+}
+h1 span:nth-child(26){
+    animation-delay: 5.5s;
+}
+h1 span:nth-child(27){
+    animation-delay: 5.75s;
+}
+h1 span:nth-child(28){
+    animation-delay: 6s;
+}
+h1 span:nth-child(29){
+    animation-delay: 6.25s;
+}
+h1 span:nth-child(31){
+    animation-delay: 6.5s;
+}
+h1 span:nth-child(32){
+    animation-delay: 6.75s;
+}
+h1 span:nth-child(33){
+    animation-delay: 7s;
+}
+h1 span:nth-child(34){
+    animation-delay: 7.25s;
+}
+h1 span:nth-child(35){
+    animation-delay: 7.5s;
+}
+h1 span:nth-child(36){
+    animation-delay: 7.75s;
+}
+h1 span:nth-child(37){
+    animation-delay: 8s;
+    
+}
+
+
+
+
+
+
+@keyframes animate {
+  0%,
+  100% {
+    color: #000;
+    filter: blur(2px);
+    text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff,
+      0 0 80px #00b3ff, 0 0 120px #00b3ff, 0 0 200px #00b3ff, 0 0 300px #00b3ff,
+      0 0 400px #00b3ff;
+  }
+  5%,
+  95% {
+    color: #111;
+    filter: blur(0px);
+    text-shadow: 0 0 10px none;
+  }
+}
