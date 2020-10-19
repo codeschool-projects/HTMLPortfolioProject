@@ -1,14 +1,245 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
-  <link rel="stylesheet" href="main.css">
-  <title>HTML Portfolio</title>
+<title>video and image</title>
+<meta name="viewport" content="width=device-width, initial-scale:1"/>
+<style type="text/css">
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+#header
+ {
+ background-color:teal;
+ height:100px;
+ width:100%;
+ }
+ #header img
+ {
+   padding:5px;
+   height:90px;
+   width:90px;
+ }
+ #header h1
+ {
+ position: absolute;
+ left:120px; top:25px;
+ font-family: arial;
+ font-size:30px;
+ text-align:center;
+ color:#fff;
+ animation:header 1s infinite;
+ }
+ @keyframes header
+ {
+ 0%{color:#fff;}
+ 25%{color: yellow;}
+ 50%{color: green;}
+ 75%{color: black;}
+ }
+
+#nav
+{
+background-color:#00cccc;
+height:30px;
+width:100%;
+margin-top:5px;
+}
+ul{
+list-style:none;
+padding:0;
+margin:0;
+}
+ul li{
+float:left;
+padding:10px;
+font-family :arial;
+font-weight:bolder;
+color:teal;
+text-align:center;
+line-height:40px;
+}
+ul li a{
+text-decoration:none;
+display:block;
+color:teal;
+}
+ul li a:hover
+{
+color:red;
+}
+ul li ul li{
+display:none;
+}
+ul li:hover ul li{
+display: block;
+}
+.container{
+ width:100vw;
+ height:70vh;
+ background-color:#fff;
+}
+.main
+{
+ width:100vw;
+ height:auto;
+ margin:auto;
+ display:flex;
+ justify-content:space-around;
+ flex-wrap: wrap;
+}
+
+.column
+{
+ width:40vw;
+ height:40vh;
+ box-shadow: 0 0 20px grey;
+}
+
+.column:first-child
+{
+ background-color: teal;
+}
+.column:last-child
+{
+background-color:#ffbe72;
+}
+.column video
+{
+
+  width:40vw;
+  height:40vh;
+  padding:5px;
+}
+
+.column img
+{
+  display:inline-block;
+  float: left;
+  
+width:30vw;
+height:40vh;
+padding:5px;
+
+}
+
+#footer
+  {
+    height:350px;
+    width:100%;
+    background-color:teal;
+  }
+  #footer h2
+  {
+  color:#000;
+  text-align: center;
+  }
+
+  #footer pre
+  {
+  color:#000;
+  text-align: center;
+  font-family: arial;
+  font-weight:bold;
+  }
+  #footer h4
+  {
+   color:#000;
+   text-align:center;
+   font-family: cursive;
+   font-weight:bolder;
+  }
+
+
+
+
+
+
+
+</style>
 </head>
 <body>
+  <!-- header start-->
+  <div id="header">
 
-  Welcome to the HTML Portfolio Project
+  <img src="logo.jpg">
+  <h1>ALUMINI PAGE</h1>
+  </div>
+  <!-- header end-->
+  <hr width=100%>
+  <!-- nav bar-->
+
+ <ul>
+ <li> <a href="#" > Home </a></li>
+ <li> <a href="#" > Gallery</a></li>
+ <li><a href="#" > Video</a></li>
+ <li> <a href="#" > Login</a></li>
+ <li> <a href="#" > Branch</a>
+     <ul>
+     <li>Computer Science</li>
+     <li>Electronics and Communication</li>
+     <li>Electrical</li>
+     <li>Civil</li>
+      <li>Mechanical</li>
+     </ul>
+ </li>
+ </ul>
+
+</br></br></br></br></br>
+  <!--nav bar end-->
+  <div class="container">
+
+
+     <div class="main">
+        <div class="column">
+          <marquee>
+          <video src="Pragya Bhardwaj.mp4" controls></video>
+           <video src="Navin Singh ‐ Made with Clipchamp.mp4" controls></video>
+           <video src="Prasadi Saw ‐ Made with Clipchamp (1).mp4" controls></video>
+          
+           </marquee>
+
+
+        </div>
+
+        <div class="column">
+          <div id="slider">
+          <figure>
+           <img src="1st pic.jpg"> 
+           <img src="2nd pic.jpg">
+           <img src="3rd pic.jpg">
+          </figure>
+          </div>  
+          
+        </div>
+     </div>
+  </div>
+  <hr width="100%">
+  <hr width="100%">
+  <br>
+  <!-- footer start-->
+  <div id="footer">
+  <h2> Important Links </h2>
+  <pre>
+  Home
+  Notice
+  facultiess
+  Gallery
+  </pre>
+  <h2> contact Us</h2>
+  <pre>
+  Email: shiwangikumari1999@gmail.com
+  Email: ritwik2019chatterjee@gmail.com
+  Linkedin:
+  Facebook:
+  phone: 7992461547,8825292475
+  landline: NA
+  </pre>
+  </div>
+  <hr width="100%">
+  <!-- footer end-->
 
 </body>
 </html>
