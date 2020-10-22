@@ -12,11 +12,11 @@ The end result will be a portfolio that you can deploy publicly! Here's a sample
 
 We'll dive into a number of basic HTML concepts, including:
 
-* Creating an HTML page
-* Using classes to organize your page and tie in styles
-* Using headings to denote importance
-* Adding text using paragraphs
-* Creating links so users can contact you
+ * Creating an HTML page
+ * Using classes to organize your page and tie in styles
+ * Using headings to denote importance
+ * Adding text using paragraphs
+ * Creating links so users can contact you
 
 ## What You'll Need
 
