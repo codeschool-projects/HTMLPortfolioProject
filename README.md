@@ -67,7 +67,7 @@ Inside the `.tagline` element, create a `h3` tag inviting the visitor to learn m
 
 ### The Skills Element
 
-Next, we'll create a place to list out our current skills by creating an element with a class of `skills`. Here we'll be listing out what we already know.	MENU
+Next, we'll create a place to list out our current skills by creating an element with a class of `skills`. In here we'll be listing out what we already know.	MENU
 
 ### Skills Content
 
@@ -75,7 +75,7 @@ Inside the `.skills` element, create a `h3` tag inviting the user to learn more 
 
 ### List of Skills
 
-Inside the `.skills` element, create a new `ul` which will be a list of your skills. In here, add 3 skills you currently possess. `HTML` must be one of these skills.	MENU
+Inside the `.skills` element, create a new `ul` which will be a list of of your skills. In here, add 3 skills you currently possess. `HTML` must be one of these skills.	MENU
 
 ### The Contact Element
 
@@ -105,5 +105,3 @@ git subtree push --prefix src origin gh-pages
 ```
 
 This will push the `src` folder up to GitHub on the `gh-pages` branch. After that, you should be able to open up `http://username.github.io/HTMLPortfolioProject`, where `username` is your GitHub username.
-
-
