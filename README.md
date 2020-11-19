@@ -105,3 +105,7 @@ git subtree push --prefix src origin gh-pages
 ```
 
 This will push the `src` folder up to GitHub on the `gh-pages` branch. After that, you should be able to open up `http://username.github.io/HTMLPortfolioProject`, where `username` is your GitHub username.
+
+### SEO
+Search Engine Optimization is the prosess in which we try to enhance our site rank on the search engine.
+After deploying your website you must work on the Search Engine Optimization(SEO).
