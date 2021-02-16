@@ -25,7 +25,7 @@ describe('The webpage', () => {
       assert.isOk(h1.textContent, 'Our header\'s `h1` element cannot be empty.');
     });
 
-    it('should have a non-empty description @h2', () => {
+    it('should have a non-empty description in the file mananger @h2', () => {
       const h2 = doc.querySelector('.header h2');
       assert.isOk(h2, 'We need an `h2` element inside `.header`.');
       assert.isOk(h2.textContent, 'Our header\'s `h2` element cannot be empty.');
