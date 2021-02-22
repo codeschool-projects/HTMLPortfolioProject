@@ -3,12 +3,98 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
-  <link rel="stylesheet" href="main.css">
-  <title>HTML Portfolio</title>
+  <!--<link rel="stylesheet" href="main.css">-->
+  <title>My Portfolio</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    header{
+      width: 100;
+      height: 30vh;
+      background-color: #2d3436;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+    }
+    h1,h2{
+      color: #00b894;
+      font-size: 2rem;
+    }
+
+    .space{
+      font: 1.5rem sans-serif;
+      margin: 2.5% 2%;
+    }
+
+    .skills{
+      width: 100;
+      height: 40vh;
+      background-color: #00b894;
+      padding: 2% 5%;
+      font-size: 1.5rem;
+    }
+    ul li {
+      margin-left: 30px;
+      
+    }
+
+    footer{
+      width: 100;
+      height: 17vh;
+      font-size: 1.2rem;
+      background-color: #5ae2c7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+
+  </style>
 </head>
 <body>
 
-  Welcome to the HTML Portfolio Project
+  <header>
+    <h1>Shivangi Chaurasia</h1>
+    <br>
+    <h2>Frontend Web developer</h3>
+  </header>
+
+
+  <div class="space">
+  <h3>
+    Something More about me :)
+  </h3>
+
+  <p >
+    Hello everyone I am Shivangi, I a  part of Alpha Bio Cell club
+    and I love coding. 
+  </p>
+</div>
+
+  <div class="skills">
+    <h3>Skills</h3>
+    <p>These are few of my technical skills</p>
+    <ul>
+      <li>Python</li>
+      <li>C</li>
+      <li>C++</li>
+      <li>HTML and CSS</li>
+      <li>Javascript</li>
+    </ul>
+  </div>
+
+  <footer>
+    <h3>Contact Details:</h3>
+    <p><a href="https://github.com/shivangi3001">Github</a> </p>
+    <p><a href="https://twitter.com/home">Twitter</a></p>
+  </footer>
 
 </body>
 </html>
