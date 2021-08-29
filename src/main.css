@@ -1,0 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
+h1{
+    font-family: "Roboto Condensed", sans-serif;
+      color: #041c3c;
+      margin-left: 50px;
+      text-align: center;
+      padding-top: 150px;
+      font-size: 70px
+
+}
+body{
+  background: url(https://data.whicdn.com/images/277354475/original.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
