@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    /* color: white; */
+}
+.header{
+    min-height: 400px;
+    background-color: rgb(119, 119, 250);
+}
+.header h1{
+    text-align: center;
+    padding: 50px;
+}
+.header h2{
+    text-align: center;
+}
+.header .tagline{
+    margin: 0 auto;
+    width: 50%;
+    padding: 30px;
+}
+.skills{
+    background-color: rgb(162, 255, 162);
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.skills h3{
+    padding: 30px;
+}
+.skills ul{
+    list-style: none;
+}
+.skills ul li{
+    padding: 10px;
+}
+.contact{
+    background-color: rgb(255, 255, 151);
+    text-align: center;
+    padding: 8px;
+}
+.contact h3{
+    text-align: center;
+    padding: 20px;
+}
+.contact a{
+    color: black;
+    text-decoration: none;
+}
