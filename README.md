@@ -20,7 +20,7 @@ We'll dive into a number of basic HTML concepts, including:
 
 ## What You'll Need
 
-You'll need a GitHub account, Git installed locally, and a text editor to edit HTML. We recommend using GitHub's [Atom Editor](https://atom.io/), which is free and very powerful. The [Brackets](http://brackets.io/) editor is another great tool.
+You'll need a GitHub account, Git installed locally, and a text editor to edit HTML. We recommend using GitHub's [Atom Editor](https://atom.io/), which is free and very powerful. The [Brackets](http://brackets.io/) editor is another great tool. Else the Text editor [VsCode](https://code.visualstudio.com/)
 
 ## Live Demo
 
@@ -45,54 +45,54 @@ Running `npm start` should open a browser window pointing to `http://localhost:3
 Complete the following tasks to finish this project.
 
 
-### Create the Page Header
+###  1. Create the Page Header
 
 At the top of our page, we'll want to create an element with a class of `header` for us to add some information about ourselves.	MENU
 
-### Header Text
+### 2. Header Text
 
 Inside of our `.header` element, create an `h1` tag with your name in it. This is your portfolio, so it makes sense for your name to have the most prominence.	MENU
 
-### Job Title
+### 3. Job Title
 
 Also inside the `.header` element, add a `h2` tag with a job title (ie. "software developer", or "web designer", or "maker of things", etc).	MENU
 
-### The Tagline Element
+### 4. The Tagline Element
 
 Next, create a new element that has a CSS class called `tagline`. In this element you'll be giving a little more information about yourself.	MENU
 
-### A Little About You
+### 5. A Little About You
 
 Inside the `.tagline` element, create a `h3` tag inviting the visitor to learn more about you (ie. "Learn More About Me", or "Here's What I Do", etc). Also add an introductory paragraph with more information about yourself, including what things you're passionate about, programming languages you enjoy writing in, etc.	MENU
 
-### The Skills Element
+### 6. The Skills Element
 
 Next, we'll create a place to list out our current skills by creating an element with a class of `skills`. In here we'll be listing out what we already know.	MENU
 
-### Skills Content
+### 7. Skills Content
 
 Inside the `.skills` element, create a `h3` tag inviting the user to learn more about your skills (ie. "my skills"). Also add a paragraph tag describing your skills (ie. "I enjoy writing front-end code with these technologies").	MENU
 
-### List of Skills
+### 8. List of Skills
 
 Inside the `.skills` element, create a new `ul` which will be a list of of your skills. In here, add 3 skills you currently possess. `HTML` must be one of these skills.	MENU
 
-### The Contact Element
+### 9. The Contact Element
 
 The last section of our page will give people a way to contact us. Create a wrapper element for this area and give it a class of `contact`.	MENU
 
-### Contact Copy
+### 10.Contact Copy
 
 Inside the `.contact` element, create a `h3` tag inviting the user to contact you (ie. "contact me", or "drop me a line"). Also add a paragraph tag describing how people can contact you.	MENU
 
-### Contact Link
+### 11. Contact Link
 
 Lastly, we just need a way for people to get in touch with us! In the paragraph you created, add an anchor tag (an `<a>` element) pointing people to a place where they can get more information about you (ie. Twitter, LinkedIn, Github, etc).
 
 
 ## Next Steps
 
-Now that we have a working portfolio site, the next (optional) step is to style it. If you want to learn how to style this one with Bootstrap, head over to the [Build a Portfolio Using Bootstrap)(/projects/build-a-portfolio-using-twitter-bootstrap) project.
+Now that we have a working portfolio site, the next (optional) step is to style it. If you want to learn how to style this one with Bootstrap, head over to the [Build a Portfolio Using Bootstrap](https://github.com/codeschool-projects/BootstrapPortfolioProject) project.
 
 If you’d rather style it on your own, now’s an excellent chance to add a stylesheet to this project and use those CSS skills!
 
