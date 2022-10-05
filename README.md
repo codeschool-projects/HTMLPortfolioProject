@@ -90,7 +90,7 @@ Inside the `.contact` element, create a `h3` tag inviting the user to contact yo
 Lastly, we just need a way for people to get in touch with us! In the paragraph you created, add an anchor tag (an `<a>` element) pointing people to a place where they can get more information about you (ie. Twitter, LinkedIn, Github, etc).
 
 
-## Next Steps
+## Next Steps-
 
 Now that we have a working portfolio site, the next (optional) step is to style it. If you want to learn how to style this one with Bootstrap, head over to the [Build a Portfolio Using Bootstrap)(/projects/build-a-portfolio-using-twitter-bootstrap) project.
 
