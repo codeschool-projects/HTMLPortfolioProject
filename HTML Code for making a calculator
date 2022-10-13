@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head><title>Calculator</title>
+<h1 style="text-align: center">Calculator</h1>
+<style>
+#calculator-contain{
+position: relative;
+width: 300px;
+border: 5px solid black;
+border-radius: 10px;
+background: grey;
+margin-top: 10px;}
+input[type=button]{
+background: lightgrey;
+width:20%;
+font-size: 20px;
+font-weight: 1000;
+margin: 2%;
+border-radius: 10px;}
+input[type=text]{
+position: relative;
+display: block;
+border: 2px solid black;
+border-radius: 10px;
+width: 90%;
+height: 70px;
+margin: 15px auto;
+font-size: 25px;
+font-family: "Monaco";
+font-weight:550;
+background: cyan;
+color: black;
+text-align:right;}
+</style>
+<script text='text/javascript'>
+var i = 0;
+function brackets(){
+if(i == 0){
+calculator.display.value += '(';
+i = 1;}
+else if(i == 1){
+calculator.display.value += ')';
+i = 0;}}
+function backspace(){
+var x = calculator.display.value;
+if(x.length > 0){
+x = x.substring(0, x.length-1);
+calculator.display.value = x;}}
+function Cbtn(){
+alert("Alert : Clearing Screen");}
+function ask(){
+prompt("Prompt : Your Name please?");}
+function val(){var y= calculator.display.value;
+if(y==' = undefined'){
+alert("This is Validation : No Input")}}
+</script>
+</head>
+<body onload="ask()">
+<center>
+<div id="calculator-contain">
+<form name="calculator">
+<input type="text" name="display" /><br/>
+<input type="button" value=" C " onclick="calculator.display.value ='';Cbtn()" style = "background: orange;"/>
+<input type="button" value="&#8592 " onclick="backspace()" style = "background: orange;"/>
+<input type="button" value=" = " onclick="calculator.display.value += ' = '+eval(calculator.display.value);val()" style
+= "background: orange ;"/>
+<input type="button" value=" + " onclick="calculator.display.value +='+'" style = "background: dodgerblue;"/><br/>
+<input type="button" value=" 7 " onclick="calculator.display.value +='7'"/>
+<input type="button" value=" 8 " onclick="calculator.display.value +='8'"/>
+<input type="button" value=" 9 " onclick="calculator.display.value +='9'"/>
+<input type="button" value=" - " onclick="calculator.display.value +='-'" style = "background: dodgerblue;"/><br/>
+<input type="button" value=" 4 " onclick="calculator.display.value +='4'"/>
+<input type="button" value=" 5 " onclick="calculator.display.value +='5'"/>
+<input type="button" value=" 6 " onclick="calculator.display.value +='6'"/>
+<input type="button" value=" x " onclick="calculator.display.value +='*'" style = "background: dodgerblue;"/><br/>
+<input type="button" value=" 1 " onclick="calculator.display.value +='1'"/>
+<input type="button" value=" 2 " onclick="calculator.display.value +='2'"/>
+<input type="button" value=" 3 " onclick="calculator.display.value +='3'"/>
+<input type="button" value=" / " onclick="calculator.display.value +='/'" style = "background: dodgerblue;"/><br/>
+<input type="button" value="()" onclick="brackets()"/>
+<input type="button" value=" 0 " onclick="calculator.display.value +='0'"/>
+<input type="button" value=" . " onclick="calculator.display.value +='.'"/>
+<input type="button" value=" % " onclick="calculator.display.value +='%'" style = "background:
+dodgerblue;"/><br/>
+</form>
+</div>
+</body>
+</html>
+
