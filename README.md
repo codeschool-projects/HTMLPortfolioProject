@@ -24,7 +24,7 @@ You'll need a GitHub account, Git installed locally, and a text editor to edit H
 
 ## Live Demo
 
-Here is a [working version of this project](https://codeschool-project-demos.github.io/HTMLPortfolioProject/), and now it is your job to out-do our version of this project by customizing your portfolio even further and adding more CSS rules, etc. We can't wait to see what you come up with!
+Here is a [working version of this project](**https://codeschool-project-demos.github.io/HTMLPortfolioProject/**), and now it is your job to out-do our version of this project by customizing your portfolio even further and adding more CSS rules, etc. We can't wait to see what you come up with!
 
 ## Setup
 
