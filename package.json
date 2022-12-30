@@ -15,14 +15,16 @@
     "babel-register": "^6.18.0",
     "browser-sync": "^2.14.0",
     "chai": "^3.5.0",
-    "jsdom": "^9.4.1",
-    "mocha": "^3.0.1"
+    "jsdom": "^20.0.3",
+    "mocha": "^10.2.0"
   },
   "engines": {
     "node": ">=4.6",
     "npm": ">=2.15"
   },
   "babel": {
-    "presets": ["es2015"]
+    "presets": [
+      "es2015"
+    ]
   }
 }

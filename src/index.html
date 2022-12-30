@@ -3,12 +3,104 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
-  <link rel="stylesheet" href="main.css">
-  <title>HTML Portfolio</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ <title>HTML Portfolio</title>
+ <style>
+  body {
+  background: #F5F5F5;
+  color: #444;
+  font-family: "Helvetica Neue", Arial, serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
+}
+.header{
+  align-items: center;
+  background-color: #EFEFEF;
+  background-image: url('bg.jpg');
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  border-top: 4px solid black;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  justify-content: center;
+  min-height: 250px;
+  padding: 0 20px;
+  position: relative;
+  text-align: center;
+}
+.header:before {
+  background: rgba(0, 0, 0, .7);
+  bottom: 0;
+  content: ' ';
+  display: block;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.header * {
+  position: relative;
+  z-index: 2;
+  text-shadow: 1px 1px 10px black;
+}
+.h1{
+  font-size:4rem;
+}
+.h2{
+  font-size:2.1rem;
+}
+a {
+  color: #00b8d4;
+}
+.skills{
+  background-color: blanchedalmond;
+}
+ </style>
 </head>
 <body>
+<div class="header">
+   <h1>Jesmine Goh</h1>
+   <h2>Student Software Developer</h2>
+</div>
+<div class="tagline">
+   <div class="content-wrapper">
+     <h3>Learn More About Me</h3>
+     <p>Hi I am Jesmine, a bubbly,sociable and full of passion in coding for applications.<br>My hobbies include reading and cooking.<br>I also enjoy
+     picking up new skills such as learning how to play a guitar,build a clone app.</p>
+   </div>
+</div>
+<div class="skills">
+   <div class="content-wrapper">
+    <h3>Skills</h3>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>C#</li>
+      </ul>
+   </div>
+</div>
+<div class="contact">
+  <div class="content-wrapper">
+    <h3>Contact Me</h3>
+    <p>You can contact me through:  <a target="_blank" href="https://instagram.com/photograph.comnet?igshid=MWI4MTIyMDE=">@photograph.comnet</a></p>
 
-  Welcome to the HTML Portfolio Project
+
+
+
+
+
+
+
+
 
 </body>
 </html>
