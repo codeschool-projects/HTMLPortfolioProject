@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    border: 2px solid black;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    position: relative;
+
+}
+.header:after{
+    content: " ";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color:rgba(0, 0, 0, 0.7);
+    position: absolute;
+    z-index: 0;
+}
+.name , .job_title{
+    z-index: 100;
+    cursor: pointer;
+}
+.name{
+    margin: 3px;
+    letter-spacing: 2px;
+    font-size: 80px;
+    position: relative;
+    padding: 2px 10px;
+    
+}
+.name:hover:after{
+    height: 100%;
+}
+.name:hover{
+    color: black;
+}
+.name:after{
+    content: "";
+    width: 100%;
+    height: 0%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: -1;
+    border-radius: 10px;
+    transition: height .1s;
+
+}
+.job_title:hover{
+    text-decoration-line: underline;
+    
+}
