@@ -10,6 +10,11 @@
 h3{
     font-size: 35px;
     margin-bottom: 15px;
+    display: inline-block;
+    cursor:pointer
+}
+h3:hover{
+    transform: translateX(3px);
 }
 p{
     font-size: 22px;
@@ -106,6 +111,10 @@ p{
 .skills ul li{
     line-height: 24px;
     font-size: larger;
+    cursor: pointer;
+}
+.skills ul li:hover{
+    transform: translateX(3px);
 }
 
 /* contact element styling start from here */
@@ -119,6 +128,22 @@ p{
     width: 70%;
 }
 .contact a{
+    display: inline-block;
     color: black;
     font-size: 30px;
+    animation-name: facebook;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    
+
+}
+
+@keyframes facebook {
+    
+    
+    100%{
+        transform: rotateX(360deg);
+    }
+
 }
