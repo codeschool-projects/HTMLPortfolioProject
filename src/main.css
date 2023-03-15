@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+    display: inline-block;
+    cursor:pointer
+}
+h3:hover{
+    transform: translateX(3px);
+}
+p{
+    font-size: 22px;
+}
+.auto-padding{
+    padding: 50px 30px;
+}
+
+/* header styling start from here */
+.header{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    position: relative;
+
+}
+.header:after{
+    content: " ";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color:rgba(0, 0, 0, 0.7);
+    position: absolute;
+    z-index: 0;
+}
+.name , .job_title{
+    z-index: 100;
+    cursor: pointer;
+}
+.name{
+    margin: 3px;
+    letter-spacing: 2px;
+    font-size: 80px;
+    position: relative;
+    padding: 2px 10px;
+    
+}
+.name:hover:after{
+    height: 100%;
+}
+.name:hover{
+    color: black;
+}
+.name:after{
+    content: "";
+    width: 100%;
+    height: 0%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: -1;
+    border-radius: 10px;
+    transition: height .1s;
+
+}
+.job_title:hover{
+    text-decoration-line: underline;
+    
+}
+
+/* tagline styling start from here*/
+.tagline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tagline-content{
+    width: 70%;
+}
+
+/* skills element styling start from here */
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2c3e50;
+    color: white;
+}
+.skills-content{
+    width: 70%;
+}
+.skills ul{
+    margin: 15px 0 0 30px;
+}
+.skills ul li{
+    line-height: 24px;
+    font-size: larger;
+    cursor: pointer;
+}
+.skills ul li:hover{
+    transform: translateX(3px);
+}
+
+/* contact element styling start from here */
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+.contact-content{
+    width: 70%;
+}
+.contact a{
+    display: inline-block;
+    color: black;
+    font-size: 30px;
+    animation-name: facebook;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    
+
+}
+
+@keyframes facebook {
+    
+    
+    100%{
+        transform: rotateX(360deg);
+    }
+
+}

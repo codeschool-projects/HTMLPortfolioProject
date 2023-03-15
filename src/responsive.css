@@ -1,0 +1,47 @@
+@media screen and (max-width : 770px){
+    .header .name{
+        font-size: 60px;
+    }
+    h3{
+        font-size: 30px;
+    }
+       
+    p{
+        font-size: 18px;
+    }
+    .tagline,.skills,.contact{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 590px){
+    .header .name{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 25px;
+    }
+       
+    p{
+        font-size: 12px;
+    }
+    .tagline,.skills,.contact{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 420px){
+    .header .name{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 20px;
+    }
+       
+    p{
+        font-size: 10px;
+    }
+    .tagline,.skills,.contact{
+        width: 100%;
+    }
+}
