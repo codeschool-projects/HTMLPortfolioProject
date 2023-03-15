@@ -107,3 +107,18 @@ p{
     line-height: 24px;
     font-size: larger;
 }
+
+/* contact element styling start from here */
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+.contact-content{
+    width: 70%;
+}
+.contact a{
+    color: black;
+    font-size: 30px;
+}
