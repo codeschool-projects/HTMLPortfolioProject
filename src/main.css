@@ -1,0 +1,24 @@
+.header {
+background-color: blueviolet ;
+padding: 20px;
+text-align: center;
+font-size: xx-large;
+}
+.tagline{
+    background-color: whitesmoke ;
+padding: 20px;
+text-align: center;
+font-size: large;
+}
+.skills{
+    background-color: blueviolet ;
+padding: 20px;
+text-align: center;
+font-size: medium;
+}
+.contact{
+    background-color: whitesmoke ;
+    padding: 20px;
+    text-align: center;
+    font-size: medium;
+}
