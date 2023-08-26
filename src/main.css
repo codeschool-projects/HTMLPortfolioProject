@@ -1,0 +1,115 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background-image: url("https://amymhaddad.s3.amazonaws.com/oriental-tiles.png");
+}
+
+.name{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.job-title{
+    color: white;
+    opacity: 80%;
+    letter-spacing: 1px;
+}
+
+.tagline{
+    
+    padding: 10px;
+    color: black;
+    background-color: rgb(182, 222, 208);
+}
+.tagline h3{
+    
+    font-weight: 800;
+    font-size: larger;
+    margin: 5px auto;
+    letter-spacing: 2px;
+    
+}
+.tagline p{
+    
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: large;
+}
+.college-name{
+    color: blue;
+    font-weight: 600;
+}
+
+.skills{
+    color:black;
+   
+    padding: 10px;
+    background-color: rgb(219, 202, 180);
+    
+}
+.skills h3{
+    font-size: larger;
+    font-size: larger;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+.skills p{
+    font-weight: 400;
+    margin: 5px 0;
+    font-size: large;
+}
+.skills ul{
+    padding: 10px 0;
+    margin:5px 0;
+}
+.skills ul li {
+    
+    padding: 5px 0;
+    margin:5px 10px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    height: 180px;
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+
+.contact h3{
+    font-size: larger;
+    font-size: larger;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding: 5px 0;
+    margin: 2px 0;
+}
+.contact p a{
+    cursor: pointer;
+    
+    padding: 5px 0;
+    
+    color: black;
+    
+}
