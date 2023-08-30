@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f5f5f5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .contact-form {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 400px;
+    }
+
+    .input-group {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 15px;
+    }
+
+    .input-container {
+      position: relative;
+      margin-bottom: 10px;
+    }
+
+    .input {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      transition: border-color 0.3s;
+    }
+
+    .input:focus {
+      border-color: #0074d9;
+    }
+
+    .input-label {
+      position: absolute;
+      top: -10px;
+      left: 8px;
+      background-color: white;
+      padding: 0 5px;
+      color: #0074d9;
+      transform: translateY(-100%) scale(0.75);
+      font-size: 12px;
+      pointer-events: none;
+      opacity: 0;
+      transition: transform 0.3s, font-size 0.3s, opacity 0.3s;
+    }
+
+    .input-container:focus-within .input-label {
+      transform: translateY(0) scale(1);
+      font-size: 14px;
+      opacity: 1;
+    }
+
+    .submit-button {
+      background-color: #0074d9;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    .submit-button:hover {
+      background-color: #0056a9;
+    }
+  </style>
+</head>
+<body>
+  <div class="contact-form">
+    <h2>Contact Us</h2>
+    <div class="input-group">
+      <div class="input-container">
+        <input type="text" class="input" id="nameInput" name="name" required>
+        <label class="input-label" for="nameInput">Your Name</label>
+      </div>
+    </div>
+    <div class="input-group">
+      <div class="input-container">
+        <input type="email" class="input" id="emailInput" name="email" required>
+        <label class="input-label" for="emailInput">Your Email</label>
+      </div>
+    </div>
+    <div class="input-group">
+      <div class="input-container">
+        <input type="text" class="input" id="subjectInput" name="subject" required>
+        <label class="input-label" for="subjectInput">Subject</label>
+      </div>
+    </div>
+    <div class="input-group">
+      <div class="input-container">
+        <textarea class="input" id="messageInput" name="message" rows="4" required></textarea>
+        <label class="input-label" for="messageInput">Your Message</label>
+      </div>
+    </div>
+    <button class="submit-button">Submit</button>
+  </div>
+</body>
+</html>

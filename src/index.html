@@ -1,14 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
   <link rel="stylesheet" href="main.css">
   <title>HTML Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.3.0/css/all.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
+  <!-- Header Section -->
+  <div class="header">
+    <div data-aos="fade-down" data-aos-duration="1500">
+      <img src="https://www.driving.co.uk/wp-content/uploads/sites/5/2020/05/Elon-Musk-square.jpg" alt="elon-musk"
+        style="width: 35vh; border-radius: 100%;  box-shadow:0 0 0px 2px white;">
+    </div>
+    <h1 data-aos="fade-down" data-aos-duration="2000"><strong>Mc Circuit</strong></h1>
+    <h2 data-aos="fade-down" data-aos-duration="1000">I'm <span id="auto-type"></span></h2>
+    <h3 data-aos="fade-down" data-aos-duration="1500">
+      <i class="fa-thin fa-chevron-down" style="margin-top: 40px;"></i>
+    </h3>
+  </div>
 
-  Welcome to the HTML Portfolio Project
+  <!-- Tagline Section -->
+  <div class="tagline">
+    <div class="content-wrapper">
+      <h3 data-aos="fade-right" data-aos-duration="1500">A bit more about me</h3>
+      <p data-aos="fade-right" data-aos-duration="1500">
+        Hey, I am McCircuit. I work for <a target="_blank" href="https://www.codeschool.com">Code School</a> and I
+        love writing Code!
+      </p>
+    </div>
+  </div>
 
+  <!-- Skills Section -->
+  <div class="skills">
+    <div class="content-wrapper">
+      <h3 data-aos="fade-down" data-aos-duration="2000">Skills</h3>
+      <p data-aos="fade-right" data-aos-duration="2000">
+        Here are some of the technologies I enjoy writing day-to-day:
+      </p>
+      <ul>
+        <li data-aos="fade-right" data-aos-duration="1500"><i class="fa-brands fa-html5"></i><span>HTML &amp; CSS</span>
+        </li>
+        <li data-aos="fade-right" data-aos-duration="2500"><i class="fa-brands fa-node-js"></i><span>Node.js</span></li>
+        <li data-aos="fade-right" data-aos-duration="3000"><i class="fa-thin fa-binary"></i><span>Binary</span></li>
+        <li data-aos="fade-left" data-aos-duration="2500"><i class="fa-brands fa-react"></i><span>React</span></li>
+        <li data-aos="fade-left" data-aos-duration="1500"><i class="fa-brands fa-angular"></i><span>Angular</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="contact">
+    <div class="content-wrapper">
+      <h3 data-aos="fade-right" data-aos-duration="1500">Get in Touch</h3>
+      <div class="contact-form">
+        <div class="contact-inputs">
+          <input data-aos="fade-right" data-aos-duration="2000" type="text" class="input" id="nameInput"
+            placeholder="Your Name..">
+          <input data-aos="fade-right" data-aos-duration="2000" type="email" class="input" id="emailInput"
+            placeholder="Your Email..">
+          <textarea data-aos="fade-right" data-aos-duration="2000" class="input" id="messageInput"
+            placeholder="Your Message.." rows="5"></textarea>
+        </div>
+        <button data-aos="fade-right" data-aos-duration="2000" class="submit-button" id="submitButton">Submit</button>
+      </div>
+    </div>
+    <div data-aos="fade-up" data-aos-duration="1500" class="socials">
+      <a href="#"><i class="fa-brands fa-fade fa-x-twitter" style="--fa-animation-duration: 0.5s;"></i></a>
+      <a href=""><i class="fa-brands fa-fade fa-facebook" style="--fa-animation-duration: 1s;"></i></a>
+      <a href=""><i class="fa-brands fa-fade fa-discord" style="--fa-animation-duration: 1.5s;"></i></a>
+      <a href=""><i class="fa-brands fa-fade fa-youtube" style="--fa-animation-duration: 2s;"></i></a>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <div class="footer">Copyright &copy; 2023 | All rights reserved</div>
+
+  <!-- Scripts -->
+  <script src="./index.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
+
 </html>
