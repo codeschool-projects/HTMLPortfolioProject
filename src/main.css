@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* Reset CSS */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styles */
+body {
+    background: #F5F5F5;
+    color: #444;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Heading Styles */
+h1,
+h2,
+h3,
+h4 {
+    margin: 10px 0 15px;
+}
+
+/* Paragraph and List Styles */
+p,
+ul {
+    margin: 10px 0;
+}
+
+/* Skills Section */
+
+.skills{
+    background: #e91e63;
+    color: white;
+}
+.skills ul {
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.skills li {
+    margin-left: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    border-radius: 100%;
+    padding: 20px;
+    min-height: 150px;
+    min-width: 250px;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.skills li:hover {
+    transform: scale(1.1);
+}
+
+.skills li i {
+    font-size: 100px;
+}
+
+.skills li span {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* Links Styles */
+a {
+    color: #00b8d4;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 3px solid #00b8d4;
+    padding: 3px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover {
+    background-color: #00b8d4;
+    color: white;
+}
+
+a:active {
+    position: relative;
+    top: 1px;
+}
+
+h3{
+    font-size: 50px;
+}
+
+/* Content Wrapper Styles */
+.content-wrapper {
+    line-height: 1.4;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 30px 25px;
+}
+
+/* Header Section Styles */
+.header {
+    background: #EFEFEF url('https://images.unsplash.com/photo-1507752533523-5186b0bc4c43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80') no-repeat center bottom / 100% auto;
+    /* 'https://images.unsplash.com/photo-1611702700114-ac96de0952e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=5000' */
+    /* 'https://images.unsplash.com/photo-1516900557549-41557d405adf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80' */
+    /* 'https://images.unsplash.com/photo-1506426305266-2b7e740fd828?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=5070&q=80' */
+
+    border-top: 4px solid #e91e63;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    min-height: 250px;
+    padding: 0 20px;
+    position: relative;
+    text-align: center;
+}
+
+.header:before {
+    background: rgba(0, 0, 0, .7);
+    bottom: 0;
+    content: ' ';
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.header * {
+    position: relative;
+    z-index: 2;
+    text-shadow: 1px 1px 10px black;
+}
+
+.header h1 {
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+.header h2 {
+    font-size: 2.1rem;
+    font-weight: 100;
+    margin: 5px 0;
+}
+
+/* Social Icons Styles */
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.socials a {
+    font-size: 30px;
+}
+
+/* Contact Form Styles */
+.contact-form {
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: stretch;
+}
+
+.contact-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+    min-width: 500px;
+}
+
+.input {
+    flex: 1;
+    border: 1px solid rgb(46, 46, 46);
+    background: transparent;
+    font-size: 20px;
+    padding: 8px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+        outline: none;
+}
+
+.submit-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.submit-button {
+    font-family: inherit;
+    background-color: #00b8d4;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 50px;
+}
+
+.submit-button:hover {
+    background-color: #0056a9;
+}
+
+textarea {
+    resize: none;
+}
+
+/* Footer Styles */
+.footer {
+    background: navajowhite;
+    margin-top: 40px;
+    padding: 20px 0;
+    text-align: center;
+    color: black;
+}

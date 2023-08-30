@@ -23,6 +23,12 @@
     "npm": ">=2.15"
   },
   "babel": {
-    "presets": ["es2015"]
+    "presets": [
+      "es2015"
+    ]
+  },
+  "dependencies": {
+    "particlesjs": "^2.2.3",
+    "typewriter-effect": "^2.20.1"
   }
 }
