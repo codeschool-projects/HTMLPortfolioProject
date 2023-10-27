@@ -1,4 +1,4 @@
-# HTML Portfolio
+## HTML Portfolio
 
 You'll create a personal web page to show off your work. We will test your HTML knowledge, and then it will be up to you to use CSS to style your own page and make it unique.
 
@@ -12,11 +12,11 @@ The end result will be a portfolio that you can deploy publicly! Here's a sample
 
 We'll dive into a number of basic HTML concepts, including:
 
-* Creating an HTML page
-* Using classes to organize your page and tie in styles
-* Using headings to denote importance
-* Adding text using paragraphs
-* Creating links so users can contact you
+* Creating an HTML page.
+* Using classes to organize your page and tie in styles.
+* Using headings to denote importance.
+* Adding text using paragraphs.
+* Creating links so users can contact you.
 
 ## What You'll Need
 
