@@ -79,7 +79,7 @@ Inside the `.skills` element, create a new `ul` which will be a list of of your 
 
 ### The Contact Element
 
-The last section of our page will give people a way to contact us. Create a wrapper element for this area and give it a class of `contact`.	MENU
+TOBhe last section of our page will give people a way to contact us. Create a wrapper element for this area and give it a class of `contact`.	MENU
 
 ### Contact Copy
 
@@ -105,3 +105,5 @@ git subtree push --prefix src origin gh-pages
 ```
 
 This will push the `src` folder up to GitHub on the `gh-pages` branch. After that, you should be able to open up `http://username.github.io/HTMLPortfolioProject`, where `username` is your GitHub username.
+
+Wonderful instructions to learn
