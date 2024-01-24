@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 width="800px" height="800px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<path fill="#394240" d="M56,0H8C5.789,0,4,1.789,4,4v52c0,4.418,3.582,8,8,8h44c2.211,0,4-1.789,4-4V4C60,1.789,58.211,0,56,0z
+		 M52,56H16c-2.211,0-4-1.789-4-4s1.789-4,4-4h36V56z M52,40H12V8h40V40z"/>
+	<path fill="#F9EBB2" d="M52,56H16c-2.211,0-4-1.789-4-4s1.789-4,4-4h36V56z"/>
+	<rect x="12" y="8" fill="#45AAB8" width="40" height="32"/>
+</g>
+</svg>

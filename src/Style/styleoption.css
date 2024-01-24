@@ -1,0 +1,133 @@
+.background-gradient{
+    background: linear-gradient(300deg ,#190482,#7752FE,#8E8FFA,#C2D9FF);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+
+}
+@keyframes linearGradient{
+    0%{
+        background-position:0% 50% ;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+
+
+img{
+    border: 5px solid black;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.container2{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: -50px;
+}
+
+
+.grid6{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2,auto);
+    gap: 100px;
+    
+    
+}
+
+.block1{
+    background-color:rgba(217, 200, 240, 0.653);
+    padding: 50px;
+    border-radius: 20px;
+}
+.block2{
+    background-color:rgba(217, 200, 240, 0.653) ;
+    padding: 50px;
+    border-radius: 20px;
+}
+.block3{
+    background-color:rgba(217, 200, 240, 0.415) ;
+    padding: 50px;
+    border-radius: 20px;
+}
+.block4{
+    background-color:rgba(217, 200, 240, 0.653) ;
+    padding: 50px;
+    border-radius: 20px;
+}
+.block5{
+    background-color:rgba(217, 200, 240, 0.415) ;
+    padding: 50px;
+    border-radius: 20px;
+}
+.block6{
+    background-color:rgba(217, 200, 240, 0.415);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.nav{
+    padding-right: 76%;
+}
+
+.block1:hover{
+    box-shadow:0px 0px 30px 1px black;
+    
+}
+.block2:hover{
+    box-shadow:0px 0px 30px 1px black;
+}
+.block3:hover{
+    box-shadow:0px 0px 30px 1px black;
+}
+.block4:hover{
+    box-shadow:0px 0px 30px 1px black;
+}
+.block5:hover{
+    box-shadow:0px 0px 30px 1px black;
+}
+.block6:hover{
+    box-shadow:0px 0px 30px 1px black;
+}
+
+@media (max-width:1400px){
+    .grid6{
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+        grid-template-rows: repeat(6,auto);
+        gap: 100px;
+        margin-top: 60px;
+
+    }
+    .container2{
+        height:max-content;
+    }
+}
+@media (min-width:770px) and (max-width:1400px){
+    .nav{
+        padding-right: 0%;
+    }
+}
+@media (max-width:770px){
+    .nav{
+        padding-right: 0%;
+    }
+
+    .d-flex{
+        flex-direction: column!important;
+        align-items: center;
+    }
+}
+
+
+
+
