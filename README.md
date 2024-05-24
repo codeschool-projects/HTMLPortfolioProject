@@ -14,6 +14,8 @@ We'll dive into a number of basic HTML concepts, including:
 
 * Creating an HTML page
 * Using classes to organize your page and tie in styles
+* Design the pages more attractive by using CSS, BootStrap
+* For validation and back-end logic use JavaScript.
 * Using headings to denote importance
 * Adding text using paragraphs
 * Creating links so users can contact you
