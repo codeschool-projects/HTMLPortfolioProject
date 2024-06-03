@@ -1,14 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
-  <link rel="stylesheet" href="main.css">
-  <title>HTML Portfolio</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>HTML Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1>Software Developer Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  Welcome to the HTML Portfolio Project
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate software developer with expertise in web development,
+        mobile app development, and software engineering. I have a strong
+        background in programming languages such as JavaScript, Python, Java,
+        and C++, and I enjoy solving complex problems and creating innovative
+        solutions.
+      </p>
+    </section>
 
-</body>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>
+          A responsive portfolio website showcasing my skills, projects, and
+          experience. Built using HTML, CSS, and JavaScript.
+        </p>
+      </div>
+      <div class="project">
+        <h3>E-commerce Website</h3>
+        <p>
+          An e-commerce platform developed using React.js for the frontend and
+          Node.js with Express.js for the backend. Integrated with payment
+          gateways and user authentication.
+        </p>
+      </div>
+      <div class="project">
+        <h3>Mobile App</h3>
+        <p>
+          A mobile application built for iOS and Android using React Native. The
+          app helps users track their fitness goals and provides personalized
+          workout plans.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>
+        Feel free to reach out to me for collaboration opportunities, project
+        inquiries, or just to say hello!
+      </p>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br />
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="4" required></textarea
+        ><br />
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </body>
 </html>
