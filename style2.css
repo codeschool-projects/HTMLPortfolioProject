@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.about {
+  font-size: 18px;
+  color: #666;
+}
+
+.about span {
+  text-decoration: underline;
+  color: #007bff; /* Blue color for Code School */
+}
+
+.skills {
+  background-color: #FFC5C5; /* Redish pink background color */
+  color: #fff; /* White text color */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.skills h2 {
+  margin-top: 0;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills li {
+  margin-bottom: 10px;
+}
+
+.skills li:before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.contact {
+  background-color: #f9f9f9; /* Light gray background color */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact h2 {
+  margin-top: 0;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #007bff; /* Blue color for Twitter handle */
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.contact u {
+  text-decoration: underline;
+  color: #007bff; /* Blue color for Twitter handle */
+}
