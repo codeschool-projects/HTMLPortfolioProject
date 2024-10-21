@@ -8,6 +8,7 @@
     "test": "mocha --compilers js:babel-register test/*.spec.js",
     "deploy:github-pages": "git subtree push --prefix src origin gh-pages"
   },
+  
   "author": "Sergio Cruz <sergio@codeschool.com>",
   "license": "MIT",
   "devDependencies": {
@@ -18,11 +19,15 @@
     "jsdom": "^9.4.1",
     "mocha": "^3.0.1"
   },
+  
   "engines": {
     "node": ">=4.6",
     "npm": ">=2.15"
   },
+  
   "babel": {
     "presets": ["es2015"]
   }
+
+  
 }
