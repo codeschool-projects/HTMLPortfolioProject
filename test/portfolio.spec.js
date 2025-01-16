@@ -1,132 +1,120 @@
-// Libraries
+// Import Required Libraries
 const fs = require('fs');
 const jsdom = require('jsdom');
 const { assert } = require('chai');
 
-// HTML
+// Load and Parse HTML
 const srcHtml = fs.readFileSync('./src/index.html');
 const doc = jsdom.jsdom(srcHtml);
 
-// Tests
-describe('The webpage', () => {
+// Test Suite for Webpage Validation
+describe('Webpage Structure and Content', () => {
 
   /**
-   * HEADER
+   * HEADER SECTION
    */
-  describe('header', () => {
-    it('should exist @header', () => {
+  describe('Header Section', () => {
+    it('should include a `.header` element', () => {
       const header = doc.querySelector('.header');
-      assert.isOk(header, 'We need a `.header` element.');
+      assert.isOk(header, 'A `.header` element is required.');
     });
 
-    it('should have a non-empty title @h1', () => {
+    it('should include a non-empty `h1` title within `.header`', () => {
       const h1 = doc.querySelector('.header h1');
-      assert.isOk(h1, 'We need an `h1` element inside `.header`.');
-      assert.isOk(h1.textContent, 'Our header\'s `h1` element cannot be empty.');
+      assert.isOk(h1, '`h1` is missing in `.header`.');
+      assert.isOk(h1.textContent, '`h1` in `.header` should not be empty.');
     });
 
-    it('should have a non-empty description @h2', () => {
+    it('should include a non-empty `h2` description within `.header`', () => {
       const h2 = doc.querySelector('.header h2');
-      assert.isOk(h2, 'We need an `h2` element inside `.header`.');
-      assert.isOk(h2.textContent, 'Our header\'s `h2` element cannot be empty.');
+      assert.isOk(h2, '`h2` is missing in `.header`.');
+      assert.isOk(h2.textContent, '`h2` in `.header` should not be empty.');
     });
   });
 
-
   /**
-   * TAGLINE
+   * TAGLINE SECTION
    */
-  describe('tagline', () => {
-    it('should exist @tagline', () => {
+  describe('Tagline Section', () => {
+    it('should include a `.tagline` element', () => {
       const tagline = doc.querySelector('.tagline');
-      assert.isOk(tagline, 'We need a `.tagline` element.');
+      assert.isOk(tagline, 'A `.tagline` element is required.');
     });
 
-    it('should have a non-empty h3 tag @tagline-content', () => {
+    it('should include a non-empty `h3` within `.tagline`', () => {
       const h3 = doc.querySelector('.tagline h3');
-      assert.isOk(h3, 'We need an `h3` element inside `.tagline`.');
-      assert.isOk(h3.textContent, 'Our tagline\'s `h3` element cannot be empty.');
+      assert.isOk(h3, '`h3` is missing in `.tagline`.');
+      assert.isOk(h3.textContent, '`h3` in `.tagline` should not be empty.');
     });
 
-    it('should have a descriptive paragraph @tagline-content', () => {
+    it('should include a descriptive `p` within `.tagline`', () => {
       const p = doc.querySelector('.tagline p');
-      assert.isOk(p, 'We need a `p` element inside `.tagline`.');
-      assert.isOk(p.textContent, 'Our tagline\'s `p` element cannot be empty.');
+      assert.isOk(p, '`p` is missing in `.tagline`.');
+      assert.isOk(p.textContent, '`p` in `.tagline` should not be empty.');
     });
   });
 
-
   /**
-   * SKILLS
+   * SKILLS SECTION
    */
-  describe('skills', () => {
-    it('should exist @skills', () => {
+  describe('Skills Section', () => {
+    it('should include a `.skills` element', () => {
       const skills = doc.querySelector('.skills');
-      assert.isOk(skills, 'We need a `.skills` element.');
+      assert.isOk(skills, 'A `.skills` element is required.');
     });
 
-    it('should have a non-empty h3 tag @skills-content', () => {
+    it('should include a non-empty `h3` within `.skills`', () => {
       const h3 = doc.querySelector('.skills h3');
-      assert.isOk(h3, 'We need an `h3` element inside `.skills`.');
-      assert.isOk(h3.textContent, 'Our skills\' `h3` element cannot be empty.');
+      assert.isOk(h3, '`h3` is missing in `.skills`.');
+      assert.isOk(h3.textContent, '`h3` in `.skills` should not be empty.');
     });
 
-    it('should have a descriptive paragraph @skills-content', () => {
+    it('should include a descriptive `p` within `.skills`', () => {
       const p = doc.querySelector('.skills p');
-      assert.isOk(p, 'We need a `p` element inside `.skills`.');
-      assert.isOk(p.textContent, 'Our skills\' `p` element cannot be empty.');
+      assert.isOk(p, '`p` is missing in `.skills`.');
+      assert.isOk(p.textContent, '`p` in `.skills` should not be empty.');
     });
 
-    it('should have an unordered list of your skills @skills-list', () => {
+    it('should include a `ul` with at least 3 `li` elements in `.skills`', () => {
       const ul = doc.querySelector('.skills ul');
-      assert.isOk(ul, 'We need a `ul` element inside `.skills`.');
-    });
-
-    it('should have at least 3 skills @skills-list', () => {
+      assert.isOk(ul, '`ul` is missing in `.skills`.');
       const skillItems = doc.querySelectorAll('.skills ul li');
-      assert.isAtLeast(skillItems.length, 3, 'We need at least 3 `li` elements inside the skills\' `ul`.');
+      assert.isAtLeast(skillItems.length, 3, '`ul` in `.skills` should contain at least 3 `li` elements.');
     });
 
-    it('should have one skill that contains HTML @skills-list', () => {
+    it('should include one `li` mentioning HTML as a skill', () => {
       const skillItems = Array.from(doc.querySelectorAll('.skills ul li'));
-      const htmlRegex = /html/i;
-
-      const skillsWithHtml = skillItems
-        .map(li => li.textContent)
-        .filter(skill => htmlRegex.test(skill));
-
-      assert.equal(skillsWithHtml.length, 1, 'HTML needs be part of one of your skills.');
+      const htmlSkill = skillItems.some(li => /html/i.test(li.textContent));
+      assert.isTrue(htmlSkill, 'One skill in `.skills ul` must mention HTML.');
     });
   });
-
 
   /**
-   * CONTACT
+   * CONTACT SECTION
    */
-  describe('contact', () => {
-    it('should exist @contact', () => {
+  describe('Contact Section', () => {
+    it('should include a `.contact` element', () => {
       const contact = doc.querySelector('.contact');
-      assert.isOk(contact, 'We need a `.contact` element.');
+      assert.isOk(contact, 'A `.contact` element is required.');
     });
 
-    it('should have a non-empty h3 tag @contact-content', () => {
+    it('should include a non-empty `h3` within `.contact`', () => {
       const h3 = doc.querySelector('.contact h3');
-      assert.isOk(h3, 'We need an `h3` element inside `.contact`.');
-      assert.isOk(h3.textContent, 'Our contact\'s `h3` element cannot be empty.');
+      assert.isOk(h3, '`h3` is missing in `.contact`.');
+      assert.isOk(h3.textContent, '`h3` in `.contact` should not be empty.');
     });
 
-    it('should have a descriptive paragraph @contact-content', () => {
+    it('should include a descriptive `p` within `.contact`', () => {
       const p = doc.querySelector('.contact p');
-      assert.isOk(p, 'We need a `p` element inside `.contact`.');
-      assert.isOk(p.textContent, 'Our contact\'s `p` element cannot be empty.');
+      assert.isOk(p, '`p` is missing in `.contact`.');
+      assert.isOk(p.textContent, '`p` in `.contact` should not be empty.');
     });
 
-    it('should have a link with an href within the paragraph @contact-link', () => {
+    it('should include a link with a valid `href` in `.contact`', () => {
       const a = doc.querySelector('.contact p a');
-      assert.isOk(a, 'We need a `a` element our inside contact\'s `p` element.');
-      assert.isOk(a.textContent, 'Our contact\'s `a` element cannot be empty.');
-      assert.isOk(a.getAttribute('href'), 'Our contact\'s `a` element needs a non-empty `href` attribute.');
+      assert.isOk(a, 'A link (`a`) is required in `.contact p`.');
+      assert.isOk(a.textContent, '`a` in `.contact` should not be empty.');
+      assert.isOk(a.getAttribute('href'), '`a` in `.contact` must have a valid `href`.');
     });
   });
-
 });
