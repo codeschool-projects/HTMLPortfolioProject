@@ -13,8 +13,7 @@ The end result will be a portfolio that you can deploy publicly! Here's a sample
 We'll dive into a number of basic HTML concepts, including:
 
 * Creating an HTML page
-* Using classes to organize your page and tie in styles
-* Using headings to denote importance
+* Using classes to organize your page and tie in style  Using headings to denote importance
 * Adding text using paragraphs
 * Creating links so users can contact you
 
@@ -25,7 +24,7 @@ You'll need a GitHub account, Git installed locally, and a text editor to edit H
 ## Live Demo
 
 Here is a [working version of this project](https://codeschool-project-demos.github.io/HTMLPortfolioProject/), and now it is your job to out-do our version of this project by customizing your portfolio even further and adding more CSS rules, etc. We can't wait to see what you come up with!
-
+OA
 ## Setup
 
 Once you have cloned the forked repository, go into the directory containing the project and look for the `/src` directory. This is the directory where you will be making changes when you start following the step-by-step instructions. You can simply open those files in a text editor and get started.
@@ -75,7 +74,7 @@ Inside the `.skills` element, create a `h3` tag inviting the user to learn more 
 
 ### List of Skills
 
-Inside the `.skills` element, create a new `ul` which will be a list of of your skills. In here, add 3 skills you currently possess. `HTML` must be one of these skills.	MENU
+Inside the `.skills` element, create a new `ul`(unordered list) which will be a list of of your skills. In here, add 3 skills you currently possess. `HTML` must be one of these skills.	MENU
 
 ### The Contact Element
 
@@ -99,9 +98,8 @@ If you’d rather style it on your own, now’s an excellent chance to add a sty
 ## Deploying
 
 Putting this site up on GitHub pages is a bit different than some other projects because the code is all in the `/src` directory. There’s a nifty way to push this directory to a GitHub branch, which allows you to use GitHub pages with it! Try running this Git command for this project:
-
-```
+'''
 git subtree push --prefix src origin gh-pages
-```
+'''
 
 This will push the `src` folder up to GitHub on the `gh-pages` branch. After that, you should be able to open up `http://username.github.io/HTMLPortfolioProject`, where `username` is your GitHub username.
