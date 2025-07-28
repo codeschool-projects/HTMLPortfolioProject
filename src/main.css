@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    /* background: linear-gradient(90deg,black, rgb(2, 2, 89),black); */
+    background: linear-gradient(90deg,rgb(5, 5, 54),black,rgb(5, 5, 54));
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.first{
+    font-size: 90px;
+    color: rgb(94, 94, 236);
+}
+
+.second{
+    font-size: 95px;
+    color: rgba(0, 255, 255, 0.497);
+    animation: animation 2s;
+}
+    
+
