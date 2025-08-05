@@ -1,0 +1,89 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Body and Layout */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header and Navigation */
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #f4f4f4;
+}
+
+/* Section Styling */
+section {
+  padding: 2rem 5%;
+  margin: 2rem 0;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+section p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav ul li {
+    margin: 10px 0;
+  }
+
+  section {
+    padding: 2rem 2%;
+  }
+}
