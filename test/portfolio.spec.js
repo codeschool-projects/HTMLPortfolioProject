@@ -1,37 +1,36 @@
-// Libraries
+
 const fs = require('fs');
-const jsdom = require('jsdom');
+const { JSDOM } = require('jsdom');
 const { assert } = require('chai');
 
-// HTML
-const srcHtml = fs.readFileSync('./src/index.html');
-const doc = jsdom.jsdom(srcHtml);
-
-// Tests
 describe('The webpage', () => {
+  let document;
 
-  /**
-   * HEADER
-   */
-  describe('header', () => {
-    it('should exist @header', () => {
-      const header = doc.querySelector('.header');
-      assert.isOk(header, 'We need a `.header` element.');
-    });
-
-    it('should have a non-empty title @h1', () => {
-      const h1 = doc.querySelector('.header h1');
-      assert.isOk(h1, 'We need an `h1` element inside `.header`.');
-      assert.isOk(h1.textContent, 'Our header\'s `h1` element cannot be empty.');
-    });
-
-    it('should have a non-empty description @h2', () => {
-      const h2 = doc.querySelector('.header h2');
-      assert.isOk(h2, 'We need an `h2` element inside `.header`.');
-      assert.isOk(h2.textContent, 'Our header\'s `h2` element cannot be empty.');
-    });
+  before(() => {
+    const html = fs.readFileSync('./src/index.html', 'utf8');
+    const dom = new JSDOM(html);
+    document = dom.window.document;
   });
 
+  describe('header', () => {
+    it('should exist', () => {
+      const header = document.querySelector('.header');
+      assert.exists(header, 'Expected .header element to exist');
+    });
+
+    it('should have a non-empty title (h1)', () => {
+      const h1 = document.querySelector('.header h1');
+      assert.exists(h1, 'Expected h1 inside .header');
+      assert.isNotEmpty(h1.textContent.trim(), 'h1 text content must not be empty');
+    });
+
+    it('should have a non-empty description (h2)', () => {
+      const h2 = document.querySelector('.header h2');
+      assert.exists(h2, 'Expected h2 inside .header');
+      assert.isNotEmpty(h2.textContent.trim(), 'h2 text content must not be empty');
+    });
+  });
+});
 
   /**
    * TAGLINE
